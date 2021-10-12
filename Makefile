@@ -9,4 +9,4 @@ deploy:
 	npx surge ./src/
 
 convertstyles:
-	sass ./src/scss/main.scss ./src/css/main.css
+	sass ./src/scss/app.scss ./src/css/main.css

@@ -36,7 +36,7 @@ h2 {
   font-size: 38px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 414px) {
   h1 {
     font-size: 30px;
   }
