@@ -18,8 +18,6 @@
 }
   
 body {
-  // margin: 0;
-
   color: #cacaca;
 
   font-size: 18px;
@@ -27,7 +25,10 @@ body {
 
   line-height: 1.5;
 
-	background-color: #08020d;
+	background-color: $background-color;
+
+  max-width: $max-desctop-width;
+  margin: 0 auto;
 }
 
 h1,
@@ -47,7 +48,39 @@ h2 {
   font-size: 38px;
 }
 
-@media (max-width: $mob-width) {
+header {
+  // position: absolute;
+  // top: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal-menu {
+  display: flex;
+  // padding: 0;
+
+  list-style: none;
+}
+
+// .background-present::before {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+
+//   width: 100%;
+//   height: 100%;
+
+//   background-image: url(../images/banner.png);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+
+//   // opacity: 0.1;
+
+//   content: '';
+// }
+
+@media (max-width: $max-mob-width) {
 	h1 {
 		font-size: 30px;	
 	}

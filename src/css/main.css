@@ -18,7 +18,9 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  background-color: #08020d;
+  background-color: #08020D;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 h1,
@@ -34,6 +36,16 @@ h1 {
 
 h2 {
   font-size: 38px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal-menu {
+  display: flex;
+  list-style: none;
 }
 
 @media (max-width: 414px) {
