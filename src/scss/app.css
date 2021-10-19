@@ -1,22 +1,25 @@
 @font-face {
   font-weight: 400;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   src: url("../fonts/Roboto-Regular.ttf");
 }
+
 @font-face {
   font-weight: 700;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   src: url("../fonts/Roboto-Bold.ttf");
 }
+
 @font-face {
   font-weight: 300;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   src: url("../fonts/OpenSans-Light.ttf");
 }
+
 body {
   color: #cacaca;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   background-color: #08020D;
   max-width: 1200px;
@@ -39,9 +42,21 @@ h2 {
 }
 
 header {
+  position: absolute;
+  top: 25px;
+}
+
+.headercon {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-transform: uppercase;
   font-size: 11px;
   padding-top: 25px;
@@ -49,18 +64,26 @@ header {
 }
 
 header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 header nav ul {
   padding: 0;
 }
 
 .logo {
   color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 80px;
 }
+
 .logo img {
   width: 25px;
   height: 25px;
@@ -68,12 +91,16 @@ header nav ul {
 }
 
 .horizontal-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
+
 .horizontal-menu li {
   padding: 0 12px;
 }
+
 .horizontal-menu a {
   color: #cacaca;
   text-decoration: none;
@@ -98,18 +125,15 @@ header nav ul {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
-  z-index: 1;
-  content: "";
+  content: '';
 }
 
 @media (max-width: 414px) {
   h1 {
     font-size: 30px;
   }
-
   h2 {
     font-size: 18px;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=app.css.map */
