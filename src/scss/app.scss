@@ -56,11 +56,34 @@ header {
   justify-content: space-between;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+
+  text-transform: uppercase;
+}
+
+.logo img {
+  width: 25px;
+  height: 25px;
+  margin-right: 16px;
+}
+
 .horizontal-menu {
   display: flex;
   // padding: 0;
 
   list-style: none;
+}
+
+.horizontal-menu li {
+  padding: 0 10px;
+}
+
+.horizontal-menu a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 // .background-present::before {
