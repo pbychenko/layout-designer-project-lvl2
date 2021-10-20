@@ -22,8 +22,6 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   background-color: #08020D;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 h1,
@@ -41,13 +39,15 @@ h2 {
   font-size: 38px;
 }
 
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   position: absolute;
   top: 25px;
-}
-
-.headercon {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,8 +59,6 @@ header {
           align-items: center;
   text-transform: uppercase;
   font-size: 11px;
-  padding-top: 25px;
-  z-index: 2;
 }
 
 header nav {
@@ -106,6 +104,10 @@ header nav ul {
   text-decoration: none;
 }
 
+.horizontal-menu .selected {
+  color: #FFFFFF;
+}
+
 .search-form input {
   font-size: 13.3px;
   color: #757575;
@@ -125,6 +127,7 @@ header nav ul {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
+  z-index: -1;
   content: '';
 }
 
