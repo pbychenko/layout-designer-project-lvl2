@@ -55,13 +55,3 @@ h2 {
   margin: 0 auto;
 }
 
-@media (max-width: $max-mob-width) {
-  h1 {
-      font-size: 30px;
-      color: blue;
-  }
-
-  h2 {
-      font-size: 18px;
-  }
-}

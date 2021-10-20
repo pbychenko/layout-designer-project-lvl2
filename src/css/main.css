@@ -1,51 +1,14 @@
-@font-face {
-  font-weight: 400;
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf");
-}
-@font-face {
-  font-weight: 700;
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Bold.ttf");
-}
-@font-face {
-  font-weight: 300;
-  font-family: "Roboto";
-  src: url("../fonts/OpenSans-Light.ttf");
-}
-body {
-  color: #cacaca;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-  background-color: #08020D;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-h1,
-h2 {
-  font-weight: bold;
-  line-height: 1.5;
-  text-transform: uppercase;
-}
-
-h1 {
-  font-size: 60px;
-}
-
-h2 {
-  font-size: 38px;
-}
-
 header {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+}
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
   font-size: 11px;
-  padding-top: 25px;
-  z-index: 2;
 }
 
 header nav {
@@ -78,6 +41,9 @@ header nav ul {
   color: #cacaca;
   text-decoration: none;
 }
+.horizontal-menu .selected {
+  color: #FFFFFF;
+}
 
 .search-form input {
   font-size: 13.3px;
@@ -87,6 +53,7 @@ header nav ul {
   padding: 5px 0 5px 10px;
   border-radius: 7px;
   width: 240px;
+  outline: none;
 }
 
 .background-present::before {
@@ -98,18 +65,103 @@ header nav ul {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
-  z-index: 1;
+  z-index: -1;
   content: "";
+}
+
+.page-description {
+  text-align: center;
+}
+
+.subscription-container {
+  display: flex;
+  justify-content: center;
+}
+.subscription-container form {
+  width: 570px;
+}
+.subscription-container form .form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.subscription-container form .form-group input {
+  min-width: 250px;
+  padding: 17px 0 17px 20px;
+  border: solid 2px #cacaca;
+  outline: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+  background: transparent;
+}
+.subscription-container form ::placeholder {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.subscription-container form button {
+  text-transform: uppercase;
+  background-color: #34C176;
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 14px;
 }
 
 @media (max-width: 414px) {
   h1 {
     font-size: 30px;
+    color: green;
   }
 
   h2 {
     font-size: 18px;
   }
+}
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-weight: 300;
+  font-family: "Roboto";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+body {
+  color: #cacaca;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  background-color: #08020D;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

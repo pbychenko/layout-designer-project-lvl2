@@ -1,3 +1,4 @@
+@import "variables.scss";
 .background-present::before {
     position: absolute;
     top: 0;
@@ -76,4 +77,15 @@
       }
     }
     
+  }
+
+  @media (max-width: $max-mob-width) {
+    h1 {
+        font-size: 30px;
+        color: green;
+    }
+  
+    h2 {
+        font-size: 18px;
+    }
   }
