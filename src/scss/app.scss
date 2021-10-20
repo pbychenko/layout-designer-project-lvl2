@@ -31,8 +31,6 @@ body {
   // margin: 0 auto;
 }
 
-
-
 h1,
 h2 {
   font-weight: bold;
@@ -49,10 +47,6 @@ h1 {
 h2 {
   font-size: 38px;
 }
-// header {
-//   position: absolute;
-//   top: 25px;
-// }
 
 .container {
   position: relative;
@@ -61,21 +55,19 @@ h2 {
   margin: 0 auto;
 }
 
-header{
+header {
   position: absolute;
   top: 25px;
+  width: 100%;
 
-  // .container {
+  .container {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  text-transform: uppercase;
-  font-size: 11px;
-  // width: 100%;
-// }
+    text-transform: uppercase;
+    font-size: 11px;
+  }
 }
 
 header nav {
@@ -128,6 +120,7 @@ header nav {
   padding: 5px 0 5px 10px;
   border-radius: 7px;
   width: 240px;
+  outline: none;
 }
 
 
@@ -144,10 +137,73 @@ header nav {
   background-size: cover;
 
   z-index: -1;
-
   // opacity: 0.5;
-
   content: '';
+}
+
+.page-description {
+  text-align: center;
+
+  
+}
+
+.subscription-container {
+  // width: 570px;
+  // margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  // min-width: 270px;
+  // min-height: 50px;
+  // margin: 0 auto;
+  form {
+    width: 570px;
+    // display: grid;
+    // grid-template-areas: "input input" "button button";
+    // grid-gap: 24px;
+
+
+    .form-group {
+      
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 24px;
+
+  
+      input {
+        min-width: 250px;
+        // min-height: 50px;
+        padding: 17px 0 17px 20px;
+        border: solid 2px #cacaca;
+        // border-radius: 3px;
+        // opacity: 0.5;
+        outline: none;
+        border-radius: 3px;
+        color: $header-color;
+        font-size: 14px;
+        background: transparent;
+        // grid-area: input;
+        
+      }
+    }
+
+    ::placeholder {
+      color: $header-color;
+      font-size: 14px;
+    }
+
+    button {
+      // grid-area: button;
+      text-transform: uppercase;
+      background-color: #34C176;
+      padding: 20px 30px;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+      width: 100%;
+      color: $header-color;
+      font-size: 14px;
+    }
+  }
+  
 }
 
 @media (max-width: $max-mob-width) {
@@ -158,5 +214,4 @@ header nav {
 	h2 {
 		font-size: 18px;
 	}
-
 }

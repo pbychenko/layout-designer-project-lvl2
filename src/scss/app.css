@@ -48,6 +48,10 @@ h2 {
 header {
   position: absolute;
   top: 25px;
+  width: 100%;
+}
+
+header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,6 +120,7 @@ header nav ul {
   padding: 5px 0 5px 10px;
   border-radius: 7px;
   width: 240px;
+  outline: none;
 }
 
 .background-present::before {
@@ -129,6 +134,75 @@ header nav ul {
   background-size: cover;
   z-index: -1;
   content: '';
+}
+
+.page-description {
+  text-align: center;
+}
+
+.subscription-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscription-container form {
+  width: 570px;
+}
+
+.subscription-container form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.subscription-container form .form-group input {
+  min-width: 250px;
+  padding: 17px 0 17px 20px;
+  border: solid 2px #cacaca;
+  outline: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+  background: transparent;
+}
+
+.subscription-container form ::-webkit-input-placeholder {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.subscription-container form :-ms-input-placeholder {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.subscription-container form ::-ms-input-placeholder {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.subscription-container form ::placeholder {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.subscription-container form button {
+  text-transform: uppercase;
+  background-color: #34C176;
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 14px;
 }
 
 @media (max-width: 414px) {
