@@ -17,7 +17,12 @@
   }
   
   .page-description {
-    text-align: center;  
+    text-align: center;
+    padding: 200px 0;
+
+    p {
+      font-size: 16px;
+    }
   }
   
   .subscription-container {
@@ -79,13 +84,21 @@
     
   }
 
-  @media (max-width: $max-mob-width) {
-    h1 {
-        font-size: 30px;
-        color: blue;
-    }
-  
-    h2 {
-        font-size: 18px;
+  @media (max-width: $max-mob-width) {    
+    .subscription-container {
+      flex-direction: column;
+      
+      form {
+        width: auto;    
+    
+        .form-group {
+          flex-direction: column;  
+
+          input:nth-child(1) {
+            margin-bottom: 24px;
+          }
+        }
+      }
+      
     }
   }

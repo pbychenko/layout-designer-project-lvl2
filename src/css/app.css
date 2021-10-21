@@ -56,6 +56,23 @@ header nav ul {
   outline: none;
 }
 
+@media (max-width: 414px) {
+  header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav {
+    flex-direction: column;
+  }
+
+  .horizontal-menu {
+    flex-direction: column;
+  }
+  .horizontal-menu li {
+    padding-left: 0;
+  }
+}
 .background-present::before {
   position: absolute;
   top: 0;
@@ -71,6 +88,10 @@ header nav ul {
 
 .page-description {
   text-align: center;
+  padding: 200px 0;
+}
+.page-description p {
+  font-size: 16px;
 }
 
 .subscription-container {
@@ -111,13 +132,17 @@ header nav ul {
 }
 
 @media (max-width: 414px) {
-  h1 {
-    font-size: 30px;
-    color: blue;
+  .subscription-container {
+    flex-direction: column;
   }
-
-  h2 {
-    font-size: 18px;
+  .subscription-container form {
+    width: auto;
+  }
+  .subscription-container form .form-group {
+    flex-direction: column;
+  }
+  .subscription-container form .form-group input:nth-child(1) {
+    margin-bottom: 24px;
   }
 }
 @font-face {
@@ -148,6 +173,7 @@ h2 {
   font-weight: bold;
   line-height: 1.5;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 h1 {
@@ -162,4 +188,22 @@ h2 {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
 }

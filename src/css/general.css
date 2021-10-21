@@ -26,6 +26,7 @@ h2 {
   font-weight: bold;
   line-height: 1.5;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 h1 {
@@ -40,4 +41,22 @@ h2 {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
 }

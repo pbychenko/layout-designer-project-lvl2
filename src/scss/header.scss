@@ -66,3 +66,24 @@ header {
     width: 240px;
     outline: none;
   }
+
+  @media (max-width: $max-mob-width) {
+    header {    
+      .container { 
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+    
+    header nav {
+      flex-direction: column;
+    }
+    
+    .horizontal-menu {
+      flex-direction: column;
+    
+      li {
+        padding-left: 0;
+      }    
+    }    
+  }

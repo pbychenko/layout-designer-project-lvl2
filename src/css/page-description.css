@@ -13,6 +13,10 @@
 
 .page-description {
   text-align: center;
+  padding: 200px 0;
+}
+.page-description p {
+  font-size: 16px;
 }
 
 .subscription-container {
@@ -53,12 +57,16 @@
 }
 
 @media (max-width: 414px) {
-  h1 {
-    font-size: 30px;
-    color: blue;
+  .subscription-container {
+    flex-direction: column;
   }
-
-  h2 {
-    font-size: 18px;
+  .subscription-container form {
+    width: auto;
+  }
+  .subscription-container form .form-group {
+    flex-direction: column;
+  }
+  .subscription-container form .form-group input:nth-child(1) {
+    margin-bottom: 24px;
   }
 }

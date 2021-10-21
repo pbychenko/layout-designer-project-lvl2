@@ -38,10 +38,13 @@ h2 {
 	line-height: 1.5;
 
 	text-transform: uppercase;
+
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 60px;	
+  font-size: 60px;
+  
 }
 
 h2 {
@@ -53,5 +56,22 @@ h2 {
 
   max-width: $max-desctop-width;
   margin: 0 auto;
+}
+
+@media (max-width: $max-mob-width) {
+  h1 {
+      font-size: 30px;
+  }
+
+  h2 {
+      font-size: 18px;
+  }
+  body {
+    margin: 0;
+  }
+
+  .container {   
+    padding: 0 20px;
+  }
 }
 

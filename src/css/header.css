@@ -55,3 +55,21 @@ header nav ul {
   width: 240px;
   outline: none;
 }
+
+@media (max-width: 414px) {
+  header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav {
+    flex-direction: column;
+  }
+
+  .horizontal-menu {
+    flex-direction: column;
+  }
+  .horizontal-menu li {
+    padding-left: 0;
+  }
+}
