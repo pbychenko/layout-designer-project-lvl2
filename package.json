@@ -9,7 +9,13 @@
   "main": "",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.3",
+    "gulp-sass": "^5.0.0",
+    "gulp4-run-sequence": "^1.0.1",
     "htmlhint": "^0.14.2",
+    "sass": "^1.43.2",
     "stylelint": "^13.8.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^20.0.0",
