@@ -22,20 +22,3 @@
 .news-item.text-first{
   @include news-item(true);
 }
-
-
-@media (max-width: $max-mob-width) {   
-  // .pricing-cards {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
-  
-  // .pricing-item {
-  //   margin-right: 0;
-  //   margin-bottom: 50px;
-  // }
-  
-  // .pricing-item:nth-child(3) {
-  //     margin-bottom: 0;
-  // }
-}

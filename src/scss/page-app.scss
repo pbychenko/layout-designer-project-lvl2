@@ -1,0 +1,60 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.page-app {
+  padding: 100px 0;
+}
+
+.page-app h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.app-description {  
+  display: flex;
+}
+
+.app-description-text {
+  font-size: 16px;
+  line-height: 1.5;
+  width: 600px;
+
+  margin-right: 144px;
+}
+
+.btn-section {
+  margin-top: 32px;
+}
+
+.btn {
+  padding: 16px 40px;
+
+  border-radius: 32px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  font-size: 12.8px;
+  background-color: #95390C;
+}
+
+@media (max-width: $max-mob-width) {   
+  .page-app {
+    padding: 100px 0;
+  }
+  
+  .page-app h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .app-description {  
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  
+  .app-description-text {
+    width: 100%;
+  }  
+}
+
+
