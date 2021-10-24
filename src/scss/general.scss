@@ -28,7 +28,7 @@ body {
 	background-color: $background-color;
 
   // max-width: $max-desctop-width;
-  // margin: 0 auto;
+  margin: 0;
 }
 
 h1,
@@ -68,11 +68,16 @@ a {
 section {
   position: relative;
 }
+
 .container {
   // position: relative;
 
   max-width: $max-desctop-width;
   margin: 0 auto;
+}
+
+img {
+  vertical-align: middle;
 }
 
 @media (max-width: $max-mob-width) {

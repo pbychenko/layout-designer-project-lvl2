@@ -19,6 +19,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   background-color: #08020D;
+  margin: 0;
 }
 
 h1,
@@ -58,6 +59,10 @@ section {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+img {
+  vertical-align: middle;
 }
 
 @media (max-width: 414px) {

@@ -3,10 +3,9 @@
 @mixin pricing-item($image) {
   padding: 0 1.5rem;
   border-radius: 1rem;
-  // color: $header-color;
   
   h3 {
-      margin-bottom: 200px;
+    margin-bottom: 200px;
   }
 
   .pricing-value {
@@ -45,46 +44,52 @@
   background-size: cover;
 }
 
-@mixin news-item {
+@mixin news-item($text-first) {
   display: flex;
 
-  img {
+  @if ($text-first == true) {
+    flex-direction: row-reverse;
+  }  
+
+  > img {
     margin-right: 50px;
   }
 
-  .news-footer {
-  //   display: block;
-  //  border: red 1px solid;
+  .news-body {    
+    h3 {
+      margin-top: 0;
+      font-size: 30px;
+      text-transform: none;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
   }
 
-  // flex-direction: row-reverse;
-  
-  
-  // padding: 0 1.5rem;
-  // border-radius: 1rem;
-  // color: $header-color;
-  
-  // h3 {
-  //     margin-bottom: 200px;
-  // }
+  .news-footer {
+    .news-author {
+      margin-bottom: 50px;
+    }
 
-  // .pricing-value {
-  //   font-size: 64px;
-  //   line-height: 1;
-  //   display: flex;
-  //   justify-content: center;
-  // }
+    .news-author img, span {
+      margin-right: 16px;
+    }
 
-  // .pricing-value::after {
-  //   margin-left: 15px;
-  //   font-size: 32px;
-  //   text-transform: uppercase;
-  //   content: 'руб.';
-  // }
-  
+    .news-author span {
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    .author-name {
+      color: #F89202;
+    }    
+  }
+
   .btn {
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 16px 30px;
     border-radius: 5px;
     font-family: Arial, sans-serif;
     width: 100%;
@@ -93,13 +98,18 @@
     border: solid 1px white;
   }
 
-  // .pricing-footer {
-  //   margin: 64px 0;
-  //   font-size: 13px;
-  //   line-height: 1.5; 
-  // }
+  @media (max-width: $max-mob-width) { 
+    flex-direction: column;
 
-  // background-image: url(../images/#{$image}.png);
-  // background-position: center;
-  // background-size: cover;
+    > img {
+      margin-right: 0;
+    }
+
+    .news-body {    
+      h3 {
+        margin-top: 50px;
+        font-size: 16px;
+      }
+    }
+  }
 }
