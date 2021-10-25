@@ -597,6 +597,7 @@ footer .footer-second-part ul {
 }
 footer .footer-second-part ul li {
   margin-right: 16px;
+  line-height: 1.5;
 }
 
 @media (max-width: 414px) {
