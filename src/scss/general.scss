@@ -80,6 +80,10 @@ img {
   vertical-align: middle;
 }
 
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
 @media (max-width: $max-mob-width) {
   h1 {
       font-size: 30px;
@@ -88,6 +92,7 @@ img {
   h2 {
       font-size: 18px;
   }
+  
   body {
     margin: 0;
   }
