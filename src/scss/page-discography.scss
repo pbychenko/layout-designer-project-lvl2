@@ -1,0 +1,53 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.page-discography {
+  padding-top: 100px;
+}
+
+.discography-items {
+  margin-top: 45px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px 50px;
+}
+
+.discography-item {
+  grid-column: span 1;
+
+  img {
+    width:  250px;
+    height: 250px;
+  }
+
+  .discography-info {    
+    h3 {
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+  
+    p {
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+}
+
+
+@media (max-width: $max-mob-width) {  
+  .discography-items {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .discography-item {  
+    img {
+      width: 137px;
+      height: 137px;
+    }
+  }
+}

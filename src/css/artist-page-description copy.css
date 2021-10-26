@@ -1,72 +1,50 @@
-.background-present::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/banner.png);
+.artist-page-description {
+  background-image: url(../images/Morten\ Harket.png);
   background-position: center;
   background-size: cover;
   z-index: -1;
-  content: "";
-}
-
-.page-description {
-  text-align: center;
   padding: 200px 0;
 }
-.page-description p {
+.artist-page-description p {
   font-size: 16px;
-}
-
-.subscription-container {
-  display: flex;
-  justify-content: center;
-}
-.subscription-container form {
-  width: 570px;
-}
-.subscription-container form .form-group {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 24px;
-}
-.subscription-container form .form-group input {
-  min-width: 250px;
-  padding: 17px 0 17px 20px;
-  border: solid 2px #cacaca;
-  outline: none;
-  border-radius: 3px;
   color: #FFFFFF;
-  font-size: 14px;
-  background: transparent;
+  margin-bottom: 48px;
 }
-.subscription-container form ::placeholder {
-  color: #FFFFFF;
-  font-size: 14px;
+.artist-page-description .buttons {
+  display: flex;
 }
-.subscription-container form button {
+.artist-page-description .buttons img {
+  width: 25px;
+  height: 25px;
+  margin-right: 16px;
+  filter: invert(100%);
+}
+.artist-page-description .buttons .btn {
   text-transform: uppercase;
   background-color: #34C176;
   padding: 20px 30px;
-  border-radius: 5px;
+  border-radius: 3px;
   font-family: Arial, sans-serif;
-  width: 100%;
+  width: 200px;
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 12.8px;
+  border: none;
+  text-align: left;
+}
+.artist-page-description .buttons .btn-blue {
+  background-color: #5328A1;
+  margin-right: 24px;
+}
+.artist-page-description .buttons .btn-brown {
+  background-color: #95390C;
 }
 
 @media (max-width: 414px) {
-  .subscription-container {
+  .buttons {
     flex-direction: column;
   }
-  .subscription-container form {
-    width: auto;
-  }
-  .subscription-container form .form-group {
-    flex-direction: column;
-  }
-  .subscription-container form .form-group input:nth-child(1) {
+
+  .btn-blue {
     margin-bottom: 24px;
   }
 }
