@@ -1,21 +1,27 @@
 @import "variables.scss";
-.artist-background-present::before {
-    position: absolute;
-    top: 0;
-    right: 0;
+// .artist-background-present::before {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
   
-    width: 100%;
-    height: 100%;
+//     width: 100%;
+//     height: 100%;
   
+//     background-image: url(../images/Morten\ Harket.png);
+//     background-position: center;
+//     background-size: cover;
+  
+//     z-index: -1;
+//     content: '';
+//   }
+  
+  .artist-page-description {
     background-image: url(../images/Morten\ Harket.png);
     background-position: center;
     background-size: cover;
-  
     z-index: -1;
-    content: '';
-  }
-  
-  .artist-page-description {
+
+
     padding: 200px 0;
 
     p {

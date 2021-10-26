@@ -1,0 +1,59 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.page-popular-track {
+  padding-top: 100px;
+}
+
+.popular-tracks {
+  margin-top: 45px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px 50px;
+}
+
+.popular-track {
+  grid-column: span 1;
+  
+  display: flex;
+ 
+  align-items: center;
+
+  img {
+    width: 55px;
+    height: 55px;
+
+    margin-right: 15px;
+  }
+
+  .track-info {
+    width: calc((100%) - 70px);
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+      font-size: 12.8px;
+      line-height: 19.2px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  
+    p {
+      font-size: 12.8px;
+      margin: 0;
+    }
+
+    span {
+      font-size: 12.8px;
+    }
+  }
+}
+
+
+@media (max-width: $max-mob-width) {  
+  .popular-tracks {
+    grid-template-columns: repeat(1, 1fr);
+  }  
+}

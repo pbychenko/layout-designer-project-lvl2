@@ -1,0 +1,46 @@
+.page-popular-track {
+  padding-top: 100px;
+}
+
+.popular-tracks {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px 50px;
+}
+
+.popular-track {
+  grid-column: span 1;
+  display: flex;
+  align-items: center;
+}
+.popular-track img {
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+}
+.popular-track .track-info {
+  width: calc(100% - 70px);
+  display: flex;
+  justify-content: space-between;
+}
+.popular-track .track-info h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+.popular-track .track-info p {
+  font-size: 12.8px;
+  margin: 0;
+}
+.popular-track .track-info span {
+  font-size: 12.8px;
+}
+
+@media (max-width: 414px) {
+  .popular-tracks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
