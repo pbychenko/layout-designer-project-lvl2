@@ -719,7 +719,7 @@ footer .footer-second-part ul li {
 .discography-items {
   margin-top: 45px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
 }
 
@@ -734,7 +734,7 @@ footer .footer-second-part ul li {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 0;
 }
 .discography-item .discography-info p {
@@ -744,11 +744,53 @@ footer .footer-second-part ul li {
 
 @media (max-width: 414px) {
   .discography-items {
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
+    grid-template-columns: repeat(2, 137px);
   }
 
   .discography-item img {
+    width: 137px;
+    height: 137px;
+  }
+}
+.page-similar {
+  padding: 100px 0;
+}
+
+.similar-items {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 25px 50px;
+}
+
+.similar-item {
+  grid-column: span 1;
+}
+.similar-item img {
+  width: 250px;
+  height: 250px;
+}
+.similar-item .similar-info {
+  text-align: center;
+}
+.similar-item .similar-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: none;
+  margin-bottom: 0;
+}
+.similar-item .similar-info p {
+  font-size: 16px;
+  margin: 0;
+}
+
+@media (max-width: 414px) {
+  .similar-items {
+    grid-template-columns: repeat(2, 137px);
+  }
+
+  .similar-item img {
     width: 137px;
     height: 137px;
   }
