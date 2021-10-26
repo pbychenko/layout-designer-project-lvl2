@@ -15,7 +15,7 @@
 }
 body {
   color: #cacaca;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   background-color: #08020D;
@@ -25,7 +25,6 @@ body {
 h1,
 h2 {
   font-weight: bold;
-  line-height: 1.5;
   text-transform: uppercase;
   margin: 0 auto;
   color: #FFFFFF;
@@ -83,7 +82,6 @@ img {
   }
 
   .container {
-    width: auto;
     padding: 0 20px;
   }
 }

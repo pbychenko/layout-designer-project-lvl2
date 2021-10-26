@@ -16,7 +16,7 @@
 }
 body {
   color: #cacaca;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   background-color: #08020D;
@@ -26,7 +26,6 @@ body {
 h1,
 h2 {
   font-weight: bold;
-  line-height: 1.5;
   text-transform: uppercase;
   margin: 0 auto;
   color: #FFFFFF;
@@ -84,7 +83,6 @@ img {
   }
 
   .container {
-    width: auto;
     padding: 0 20px;
   }
 }
@@ -163,40 +161,29 @@ header nav ul {
     padding-left: 0;
   }
 }
-.background-present::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
+.page-description {
+  text-align: center;
+  padding: 200px 0;
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
   z-index: -1;
   content: "";
 }
-
-.page-description {
-  text-align: center;
-  padding: 200px 0;
-}
 .page-description p {
   font-size: 16px;
 }
 
-.subscription-container {
-  display: flex;
-  justify-content: center;
-}
-.subscription-container form {
+form {
   width: 570px;
+  margin: 0 auto;
 }
-.subscription-container form .form-group {
+form .form-group {
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
 }
-.subscription-container form .form-group input {
+form .form-group input {
   min-width: 250px;
   padding: 17px 0 17px 20px;
   border: solid 2px #cacaca;
@@ -206,11 +193,11 @@ header nav ul {
   font-size: 14px;
   background: transparent;
 }
-.subscription-container form ::placeholder {
+form ::placeholder {
   color: #FFFFFF;
   font-size: 14px;
 }
-.subscription-container form button {
+form button {
   text-transform: uppercase;
   background-color: #34C176;
   padding: 20px 30px;
@@ -222,16 +209,13 @@ header nav ul {
 }
 
 @media (max-width: 414px) {
-  .subscription-container {
-    flex-direction: column;
-  }
-  .subscription-container form {
+  form {
     width: auto;
   }
-  .subscription-container form .form-group {
+  form .form-group {
     flex-direction: column;
   }
-  .subscription-container form .form-group input:nth-child(1) {
+  form .form-group input:nth-child(1) {
     margin-bottom: 24px;
   }
 }

@@ -1,26 +1,12 @@
 @import "variables.scss";
-@font-face {
-	font-weight: 400;
-	font-family: 'Roboto';
-	src: url('../fonts/Roboto-Regular.ttf');
-}
-  
-@font-face {
-	font-weight: 700;
-	font-family: 'Roboto';
-	src: url('../fonts/Roboto-Bold.ttf');
-}
-
-@font-face {
-	font-weight: 300;
-	font-family: 'Roboto';
-	src: url('../fonts/OpenSans-Light.ttf');
-}
+@import "fonts.scss";
   
 body {
   color: #cacaca;
 
-  font-size: 18px;
+  // font-size: 18px; //нигде нет шрифта в 18px
+  font-size: 16px; 
+  
   font-family: 'Roboto', sans-serif;
 
   line-height: 1.5;
@@ -35,7 +21,7 @@ h1,
 h2 {
   font-weight: bold;
 
-	line-height: 1.5;
+	// line-height: 1.5; //задан выше
 
 	text-transform: uppercase;
 
@@ -44,8 +30,7 @@ h2 {
 }
 
 h1 {
-  font-size: 60px;
-  
+  font-size: 60px;  
 }
 
 h2 {
@@ -61,17 +46,15 @@ h3 {
 }
 
 a {
-  color: $header-color;
+  color: $header-color; //возможно надо изменить стиль
   text-decoration: none;
 }
 
 section {
-  position: relative;
+  position: relative; //? Проверить после того как уберу background кривой
 }
 
 .container {
-  // position: relative;
-
   max-width: $max-desctop-width;
   margin: 0 auto;
 }
@@ -98,7 +81,7 @@ img {
   }
 
   .container {
-    width: auto;   
+    // width: auto;   
     padding: 0 20px;
   }
 }
