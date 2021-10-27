@@ -1,54 +1,37 @@
 .page-description {
+  position: relative;
   text-align: center;
   padding: 200px 0;
+  color: #FFFFFF;
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
-  z-index: -1;
-  content: "";
 }
-.page-description p {
-  font-size: 16px;
-}
-
-form {
-  width: 570px;
+.page-description form {
+  max-width: 570px;
   margin: 0 auto;
 }
-form .form-group {
+.page-description form .form-group {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
-form .form-group input {
+.page-description form .form-group input {
   min-width: 250px;
-  padding: 17px 0 17px 20px;
+  min-height: 50px;
+  padding-left: 20px;
   border: solid 2px #cacaca;
-  outline: none;
   border-radius: 3px;
-  color: #FFFFFF;
   font-size: 14px;
   background: transparent;
-}
-form ::placeholder {
   color: #FFFFFF;
-  font-size: 14px;
 }
-form button {
-  text-transform: uppercase;
-  background-color: #34C176;
-  padding: 20px 30px;
-  border-radius: 5px;
-  font-family: Arial, sans-serif;
-  width: 100%;
+.page-description form ::placeholder {
   color: #FFFFFF;
   font-size: 14px;
 }
 
 @media (max-width: 414px) {
-  form {
-    width: auto;
-  }
   form .form-group {
     flex-direction: column;
   }
