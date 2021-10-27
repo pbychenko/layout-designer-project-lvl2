@@ -1,43 +1,42 @@
 @import "variables.scss";
 @import "mixins.scss";
+
 .page-pricing {
   padding-top: 100px ;
   text-align: center;
   color: $header-color;
-}
 
-.pricing-cards {
-  display: flex;
-  justify-content: center;
-  margin: 45px 0;
-}
-
-.pricing-item {
-  margin-right: 50px;
-}
-
-.pricing-item:nth-child(3) {
+  .pricing-cards {
+    display: flex;
+    margin: 45px 0;
+    justify-content: space-between;
+  }
+  
+  .pricing-item {
+    margin-right: 50px;
+  }
+  
+  .pricing-item:nth-child(3) {
     margin-right: 0;
+  }
+  
+  .pricing-item.free {
+    @include pricing-item(subscribe_1);
+  }
+  
+  .pricing-item.standart {
+    @include pricing-item(subscribe_2);
+  }
+  
+  .pricing-item.premium {
+    @include pricing-item(subscribe_3);
+  }
+  
+  .page-pricing-footer {
+    // font-size: 16px;//убрал так изменил шрифт
+    line-height: 1.5;
+  }
 }
-
-
-.pricing-item.free {
-  @include pricing-item(subscribe_1);
-}
-
-.pricing-item.standart {
-  @include pricing-item(subscribe_2);
-}
-
-.pricing-item.premium {
-  @include pricing-item(subscribe_3);
-}
-
-.page-pricing-footer {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
 
 @media (max-width: $max-mob-width) {   
   .pricing-cards {
