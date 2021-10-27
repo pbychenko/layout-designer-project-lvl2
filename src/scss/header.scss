@@ -1,62 +1,64 @@
 @import "variables.scss";
+
 header {
-    position: absolute;
-    top: 25px;
-    width: 100%;
-    z-index: 1;
-  
-    .container {  
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  
-      text-transform: uppercase;
-      font-size: 11px;
-    }
-  }
-  
-  header nav {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  z-index: 1;
+
+  .container {  
     display: flex;
-  
-    ul {
-      padding: 0;
-    }
+    justify-content: space-between;
+
+    text-transform: uppercase;
+    font-size: 11px;
   }
-  
+
+  nav {
+    display: flex;    
+  }
+
   .logo {
     color: $header-color;
   
     display: flex;
     align-items: center;  
   
-    margin-right: 80px;
+    margin-right: 90px;
   
     img {
       width: 25px;
       height: 25px;
       margin-right: 16px;
     }
+
+    p {
+      margin: 0;
+    }
   }
-  
+
   .horizontal-menu {
     display: flex;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
   
     list-style: none;
   
     li {
-      padding: 0 12px;
+      margin-right: 24px;
     }
   
     a {    
       color: $main-color;
-      text-decoration: none;
     }
   
     .selected {
       color: $header-color;
     }
   }
-  
+
   .search-form input {
     font-size: 13.3px;
     color: #757575;
@@ -67,24 +69,24 @@ header {
     width: 240px;
     outline: none;
   }
+}
+  
 
-  @media (max-width: $max-mob-width) {
-    header {    
-      .container { 
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    }
-    
-    header nav {
+@media (max-width: $max-mob-width) {
+  header {  
+    .container { 
       flex-direction: column;
     }
-    
+  
+    nav {
+      flex-direction: column;
+    }
+  
     .horizontal-menu {
       flex-direction: column;
-    
-      li {
-        padding-left: 0;
-      }    
+      align-items: flex-start;
+      margin-top: 17px;
+      margin-bottom: 24px;
     }    
-  }
+  } 
+}
