@@ -9,21 +9,16 @@
   display: flex;
 }
 .page-app .app-description-text {
-  font-size: 16px;
   line-height: 1.5;
   width: 600px;
   margin-right: 144px;
 }
-.page-app .btn-section {
-  margin-top: 32px;
-}
 .page-app .btn {
   padding: 16px 40px;
   border-radius: 32px;
-  font-family: Arial, sans-serif;
-  width: 100%;
   font-size: 12.8px;
-  background-color: #95390C;
+  text-transform: none;
+  width: auto;
 }
 
 @media (max-width: 414px) {
