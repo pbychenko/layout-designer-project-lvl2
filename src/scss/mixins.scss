@@ -1,47 +1,55 @@
 @import "variables.scss";
 
+@mixin page-desctiption-back($img) {
+  background-image: url(../images/#{$img}.png);
+  background-position: center;
+  background-size: cover;
+}
+
 @mixin pricing-item($image) {
   padding: 0 1.5rem;
   border-radius: 1rem;
+
+  @include page-desctiption-back($image);
   
   h3 {
     margin-bottom: 200px;
+    // border: solid 1px red;
   }
 
   .pricing-value {
     font-size: 64px;
-    line-height: 1;
+    line-height: 1em;
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
+
+    // border: solid 1px red;
   }
 
   .pricing-value::after {
+    // border: solid 1px red;
     margin-left: 15px;
+    margin-top: 5px;
+
     font-size: 32px;
+    
+    line-height: 1em;
+    
     text-transform: uppercase;
     content: 'руб.';
   }
   
-  .btn {
-    text-transform: uppercase;
-    padding: 20px 0;
-    border-radius: 5px;
-    font-family: Arial, sans-serif;
-    width: 100%;
-    font-size: 14px;
-    background: transparent;
+  button {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
     border: solid 1px white;
   }
 
   .pricing-footer {
     margin: 64px 0;
-    font-size: 13px;
-    line-height: 1.5; 
+    font-size: 12.8px; 
   }
-
-  background-image: url(../images/#{$image}.png);
-  background-position: center;
-  background-size: cover;
 }
 
 @mixin news-item($text-first) {
@@ -114,8 +122,3 @@
   }
 }
 
-@mixin page-desctiption-back($img) {
-  background-image: url(../images/#{$img}.png);
-  background-position: center;
-  background-size: cover;
-}

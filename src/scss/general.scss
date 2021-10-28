@@ -1,7 +1,7 @@
 @import "variables.scss";
 @import "fonts.scss";
 @import "buttons.scss";
-  
+
 body {
   color: #cacaca;
 
@@ -38,7 +38,7 @@ h2 {
   font-size: 38px;
 }
 
-h3 {
+h3 {//возможно стоит вынести отсюда
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
@@ -76,9 +76,9 @@ img {
   h2 {
       font-size: 18px;
   }
-  
-  body {
-    margin: 0;
+
+  h3 {
+    font-size: 16px;
   }
 
   .container {
