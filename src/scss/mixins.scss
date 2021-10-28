@@ -59,6 +59,7 @@
     flex-direction: row-reverse;
   }  
 
+  //тут надо переделать
   > img {
     margin-right: 50px;
   }
@@ -71,14 +72,14 @@
     }
 
     p {
-      font-size: 16px;
+      // font-size: 16px; возможно придется менять если главный шрифт измениться
       margin-bottom: 25px;
     }
   }
 
   .news-footer {
     .news-author {
-      margin-bottom: 50px;
+      margin-bottom: 65px;      
     }
 
     .news-author img, span {
@@ -96,17 +97,12 @@
   }
 
   .btn {
-    text-transform: uppercase;
     padding: 16px 30px;
-    border-radius: 5px;
-    font-family: Arial, sans-serif;
-    width: 100%;
-    font-size: 14px;
-    background: transparent;
-    border: solid 1px white;
+    font-size: 12px;
+    border: solid 1px $main-color;
   }
 
-  @media (max-width: $max-mob-width) { 
+  @media (max-width: $max-mob-width) {
     flex-direction: column;
 
     > img {
