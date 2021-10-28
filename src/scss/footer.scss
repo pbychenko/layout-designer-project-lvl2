@@ -1,32 +1,31 @@
 @import "variables.scss";
 
 footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+
   .footer-first-part {
-    display: flex;
-    
+    display: flex;    
     padding: 3rem 0;
 
     ul {      
       width: 270px;
       margin-right: 40px;
     }
-  }
 
-  ul {
-    padding: 0;
-    list-style: none; 
+    .contacts {
+      margin-right: 65px;
+    }
   }
 
   h2 {
     margin-bottom: 15px;
     font-size: 18px;
-    line-height: 1.5;
-    font-weight: bold;    
+    line-height: 1.5;  
   }
 
   li, a {
-    font-size: 16px;
-    line-height: 1.5;
+    // font-size: 16px;
+    // line-height: 1.5;
     color: #E0E0E0;
   }
 
@@ -35,7 +34,7 @@ footer {
   }
 
   .border {
-    background-color: #CACACA;
+    background-color: $main-color;
     height: 2px;
   }
 

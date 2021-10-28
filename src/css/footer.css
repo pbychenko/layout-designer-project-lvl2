@@ -1,3 +1,6 @@
+footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
 footer .footer-first-part {
   display: flex;
   padding: 3rem 0;
@@ -6,26 +9,22 @@ footer .footer-first-part ul {
   width: 270px;
   margin-right: 40px;
 }
-footer ul {
-  padding: 0;
-  list-style: none;
+footer .footer-first-part .contacts {
+  margin-right: 65px;
 }
 footer h2 {
   margin-bottom: 15px;
   font-size: 18px;
   line-height: 1.5;
-  font-weight: bold;
 }
 footer li, footer a {
-  font-size: 16px;
-  line-height: 1.5;
   color: #E0E0E0;
 }
 footer .social-networks li a {
   margin-right: 24px;
 }
 footer .border {
-  background-color: #CACACA;
+  background-color: #cacaca;
   height: 2px;
 }
 footer .footer-second-part {
