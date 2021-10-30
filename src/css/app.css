@@ -556,11 +556,9 @@ footer .footer-second-part ul li {
   background-image: url(../images/Morten\ Harket.png);
   background-position: center;
   background-size: cover;
-  z-index: -1;
   padding: 200px 0;
 }
 .artist-page-description p {
-  font-size: 16px;
   color: #FFFFFF;
   margin-bottom: 48px;
 }
@@ -574,23 +572,14 @@ footer .footer-second-part ul li {
   filter: invert(100%);
 }
 .artist-page-description .buttons .btn {
-  text-transform: uppercase;
-  background-color: #34C176;
   padding: 20px 30px;
-  border-radius: 3px;
-  font-family: Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   width: 200px;
   color: #FFFFFF;
-  font-size: 12.8px;
-  border: none;
   text-align: left;
 }
 .artist-page-description .buttons .btn-blue {
-  background-color: #5328A1;
   margin-right: 24px;
-}
-.artist-page-description .buttons .btn-brown {
-  background-color: #95390C;
 }
 
 @media (max-width: 414px) {
