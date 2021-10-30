@@ -679,7 +679,7 @@ footer .footer-second-part ul li {
 }
 
 .similar-items {
-  margin-top: 45px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
