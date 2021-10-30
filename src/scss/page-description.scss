@@ -10,6 +10,10 @@
 
   @include page-desctiption-back(banner);
 
+  h2 {
+    margin-bottom: 30px;
+  }
+
   form {
     max-width: 570px;
     margin: 0 auto;  

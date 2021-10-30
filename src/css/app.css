@@ -193,6 +193,9 @@ header .search-form input {
   background-position: center;
   background-size: cover;
 }
+.page-description h2 {
+  margin-bottom: 30px;
+}
 .page-description form {
   max-width: 570px;
   margin: 0 auto;
