@@ -616,20 +616,15 @@ footer .footer-second-part ul li {
   width: calc(100% - 70px);
   display: flex;
   justify-content: space-between;
+  font-size: 12.8px;
 }
 .popular-track .track-info h3 {
   font-size: 12.8px;
-  line-height: 19.2px;
   font-weight: bold;
-  text-transform: uppercase;
   margin: 0;
 }
 .popular-track .track-info p {
-  font-size: 12.8px;
   margin: 0;
-}
-.popular-track .track-info span {
-  font-size: 12.8px;
 }
 
 @media (max-width: 414px) {

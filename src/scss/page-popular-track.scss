@@ -16,8 +16,7 @@
 .popular-track {
   grid-column: span 1;
   
-  display: flex;
- 
+  display: flex; 
   align-items: center;
 
   img {
@@ -28,25 +27,20 @@
   }
 
   .track-info {
+    // border: solid 1px red;
     width: calc((100%) - 70px);
     display: flex;
     justify-content: space-between;
+    font-size: 12.8px;
 
     h3 {
       font-size: 12.8px;
-      line-height: 19.2px;
       font-weight: bold;
-      text-transform: uppercase;
       margin: 0;
     }
   
     p {
-      font-size: 12.8px;
       margin: 0;
-    }
-
-    span {
-      font-size: 12.8px;
     }
   }
 }
