@@ -47,13 +47,25 @@
   }
 }
 
-@media (max-width: $max-mob-width) {        
-  form {
-    .form-group {
-      flex-direction: column;  
+@media (max-width: $max-mob-width) {
+  .page-description {
+    padding: 250px 0;
+    
+    h2 {
+      margin-bottom: 15px;
+    }
 
-      input:nth-child(1) {
-        margin-bottom: 24px;
+    p {
+      margin-top: 0;
+    }
+
+    form {
+      .form-group {
+        flex-direction: column;  
+
+        input:nth-child(1) {
+          margin-bottom: 24px;
+        }
       }
     }
   }    
