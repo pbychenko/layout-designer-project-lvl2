@@ -35,8 +35,8 @@
 }
 
 @media (max-width: 414px) {
-  .page-description {
-    padding: 250px 0;
+  .page-description h1 {
+    margin-top: 50px;
   }
   .page-description h2 {
     margin-bottom: 15px;

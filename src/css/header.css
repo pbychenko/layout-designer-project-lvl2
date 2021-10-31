@@ -65,4 +65,10 @@ header .search-form input {
     margin-top: 17px;
     margin-bottom: 24px;
   }
+  header .horizontal-menu li {
+    margin-right: 0;
+  }
+  header .search-form input {
+    width: calc(100% - 10px);
+  }
 }

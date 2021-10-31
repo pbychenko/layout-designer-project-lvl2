@@ -15,7 +15,7 @@ header {
   }
 
   nav {
-    display: flex;    
+    display: flex;
   }
 
   .logo {
@@ -84,6 +84,14 @@ header {
       align-items: flex-start;
       margin-top: 17px;
       margin-bottom: 24px;
-    }    
+      
+      li {
+        margin-right: 0;
+      }
+    }
+    
+    .search-form input {
+      width: calc((100%) - 10px);
+    }
   } 
 }
