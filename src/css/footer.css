@@ -2,7 +2,8 @@ footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 footer .footer-first-part {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   padding: 3rem 0;
 }
 footer .footer-first-part > div {
