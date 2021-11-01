@@ -9,18 +9,17 @@ footer .footer-first-part ul {
   width: 270px;
   margin-right: 40px;
 }
-footer .footer-first-part .contacts {
-  margin-right: 65px;
-}
 footer h2 {
   margin-bottom: 15px;
   font-size: 18px;
-  line-height: 1.5;
 }
 footer li, footer a {
   color: #E0E0E0;
 }
-footer .social-networks li img {
+footer .social-networks ul {
+  display: flex;
+}
+footer .social-networks li {
   margin-right: 24px;
 }
 footer .border {
@@ -39,18 +38,16 @@ footer .footer-second-part ul li {
 }
 
 @media (max-width: 414px) {
-  .footer-first-part {
+  footer .footer-first-part {
     flex-direction: column;
   }
-
-  ul {
+  footer ul, footer h2 {
     margin-left: 20px;
   }
-
-  .footer-second-part ul {
+  footer .footer-second-part ul {
     flex-direction: column;
   }
-  .footer-second-part ul li {
+  footer .footer-second-part ul li {
     margin-bottom: 16px;
   }
 }
