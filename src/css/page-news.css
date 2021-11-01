@@ -22,7 +22,7 @@
 .news-item .news-body h3 {
   margin-top: 0;
   font-size: 30px;
-  text-transform: none;
+  text-transform: capitalize;
 }
 .news-item .news-body p {
   margin-bottom: 25px;
@@ -68,7 +68,7 @@
 .news-item.text-first .news-body h3 {
   margin-top: 0;
   font-size: 30px;
-  text-transform: none;
+  text-transform: capitalize;
 }
 .news-item.text-first .news-body p {
   margin-bottom: 25px;

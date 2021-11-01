@@ -288,6 +288,7 @@ header .search-form input {
   font-size: 16px;
   font-family: Roboto, sans-serif;
   border: solid 1px white;
+  padding: 20px 30px;
 }
 .page-pricing .pricing-item.free .pricing-footer {
   margin: 64px 0;
@@ -322,6 +323,7 @@ header .search-form input {
   font-size: 16px;
   font-family: Roboto, sans-serif;
   border: solid 1px white;
+  padding: 20px 30px;
 }
 .page-pricing .pricing-item.standart .pricing-footer {
   margin: 64px 0;
@@ -356,6 +358,7 @@ header .search-form input {
   font-size: 16px;
   font-family: Roboto, sans-serif;
   border: solid 1px white;
+  padding: 20px 30px;
 }
 .page-pricing .pricing-item.premium .pricing-footer {
   margin: 64px 0;
@@ -401,7 +404,7 @@ header .search-form input {
 .news-item .news-body h3 {
   margin-top: 0;
   font-size: 30px;
-  text-transform: none;
+  text-transform: capitalize;
 }
 .news-item .news-body p {
   margin-bottom: 25px;
@@ -447,7 +450,7 @@ header .search-form input {
 .news-item.text-first .news-body h3 {
   margin-top: 0;
   font-size: 30px;
-  text-transform: none;
+  text-transform: capitalize;
 }
 .news-item.text-first .news-body p {
   margin-bottom: 25px;
@@ -594,6 +597,7 @@ footer .footer-second-part ul li {
   font-family: Roboto, sans-serif;
   width: 200px;
   color: #FFFFFF;
+  font-size: 12.8px;
   text-align: left;
 }
 .artist-page-description .buttons .btn-blue {
@@ -671,7 +675,7 @@ footer .footer-second-part ul li {
 .discography-item .discography-info h3 {
   font-size: 18px;
   font-weight: bold;
-  text-transform: none;
+  text-transform: capitalize;
   margin-bottom: 0;
 }
 .discography-item .discography-info p {
@@ -713,7 +717,7 @@ footer .footer-second-part ul li {
 .similar-item .similar-info h3 {
   font-size: 18px;
   font-weight: bold;
-  text-transform: none;
+  text-transform: capitalize;
   margin-bottom: 0;
 }
 .similar-item .similar-info p {

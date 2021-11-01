@@ -22,7 +22,7 @@
 .similar-item .similar-info h3 {
   font-size: 18px;
   font-weight: bold;
-  text-transform: none;
+  text-transform: capitalize;
   margin-bottom: 0;
 }
 .similar-item .similar-info p {
