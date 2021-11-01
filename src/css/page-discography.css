@@ -4,12 +4,13 @@
 
 .discography-items {
   margin-top: 45px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 25px 50px;
 }
 
 .discography-item {
-  margin-right: 50px;
+  grid-column: span 1;
 }
 .discography-item img {
   width: 250px;
