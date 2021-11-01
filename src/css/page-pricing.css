@@ -40,7 +40,9 @@
   text-transform: uppercase;
   content: "руб.";
 }
-.page-pricing .pricing-item.free button {
+.page-pricing .pricing-item.free a {
+  width: calc(100% - 4rem);
+  display: inline-block;
   font-size: 16px;
   font-family: Roboto, sans-serif;
   border: solid 1px white;
@@ -75,7 +77,9 @@
   text-transform: uppercase;
   content: "руб.";
 }
-.page-pricing .pricing-item.standart button {
+.page-pricing .pricing-item.standart a {
+  width: calc(100% - 4rem);
+  display: inline-block;
   font-size: 16px;
   font-family: Roboto, sans-serif;
   border: solid 1px white;
@@ -110,7 +114,9 @@
   text-transform: uppercase;
   content: "руб.";
 }
-.page-pricing .pricing-item.premium button {
+.page-pricing .pricing-item.premium a {
+  width: calc(100% - 4rem);
+  display: inline-block;
   font-size: 16px;
   font-family: Roboto, sans-serif;
   border: solid 1px white;

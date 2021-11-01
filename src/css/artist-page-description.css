@@ -4,6 +4,9 @@
   background-size: cover;
   padding: 200px 0;
 }
+.artist-page-description h1 {
+  margin-top: 50px;
+}
 .artist-page-description p {
   color: #FFFFFF;
   margin-bottom: 48px;

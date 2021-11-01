@@ -7,10 +7,14 @@ footer {
     display: flex;    
     padding: 3rem 0;
 
-    ul {      
+    > div {
       width: 270px;
       margin-right: 40px;
     }
+    // ul {      
+    //   width: 270px;
+    //   margin-right: 40px;
+    // }
 
     // .contacts {
     //   margin-right: 65px;

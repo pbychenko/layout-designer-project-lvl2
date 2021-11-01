@@ -5,7 +5,7 @@ footer .footer-first-part {
   display: flex;
   padding: 3rem 0;
 }
-footer .footer-first-part ul {
+footer .footer-first-part > div {
   width: 270px;
   margin-right: 40px;
 }
