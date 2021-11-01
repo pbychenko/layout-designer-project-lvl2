@@ -665,7 +665,7 @@ footer .footer-second-part ul li {
 .discography-items {
   margin-top: 45px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
 }
 
