@@ -537,7 +537,7 @@ footer h2 {
 footer li, footer a {
   color: #E0E0E0;
 }
-footer .social-networks li a {
+footer .social-networks li img {
   margin-right: 24px;
 }
 footer .border {
