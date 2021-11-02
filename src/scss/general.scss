@@ -53,15 +53,15 @@ a {
 
 section {
   position: relative; //? Проверить после того как уберу background кривой
-  max-width: $max-desctop-width;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-.container {
   // max-width: $max-desctop-width;
   // padding: 0 20px;
   // margin: 0 auto;
+}
+
+.container {
+  width: $max-desctop-width;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 img {
