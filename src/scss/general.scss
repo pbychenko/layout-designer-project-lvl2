@@ -59,9 +59,11 @@ section {
 }
 
 .container {
-  width: $max-desctop-width;
+  max-width: $max-desctop-width;
   padding: 0 20px;
   margin: 0 auto;
+  box-sizing: border-box;
+  // width: 100%;
 }
 
 img {
@@ -88,7 +90,7 @@ ul {
 
   .container {
     // width: auto;   
-    padding: 0 20px;
+    // padding: 0 20px;
   }
 }
 
