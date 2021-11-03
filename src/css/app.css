@@ -433,11 +433,6 @@ header .search-form input {
     display: flex;
     flex-direction: column;
   }
-  .news-item > img {
-    width: 372px;
-    height: 186px;
-    border: solid 1px red;
-  }
   .news-item .news-body h3 {
     margin-top: 50px;
     font-size: 16px;
@@ -480,11 +475,6 @@ header .search-form input {
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
-  }
-  .news-item.text-first > img {
-    width: 372px;
-    height: 186px;
-    border: solid 1px red;
   }
   .news-item.text-first .news-body h3 {
     margin-top: 50px;
