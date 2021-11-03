@@ -14,12 +14,14 @@
   width: 600px;
   margin-right: 144px;
 }
+.page-app .app-description-text p:nth-child(2) {
+  margin-bottom: 30px;
+}
 .page-app .btn {
   padding: 16px 40px;
   border-radius: 32px;
   font-size: 12.8px;
   text-transform: none;
-  width: auto;
 }
 
 @media (max-width: 414px) {
@@ -28,5 +30,10 @@
   }
   .page-app .app-description-text {
     width: 100%;
+  }
+  .page-app img {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
   }
 }

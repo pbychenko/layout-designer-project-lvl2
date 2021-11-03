@@ -379,7 +379,7 @@ header .search-form input {
     margin-bottom: 50px;
   }
   .pricing-cards .pricing-item:nth-child(3) {
-    margin-bottom: 0;
+    margin-bottom: 25px;
   }
 }
 .page-news {
@@ -430,10 +430,8 @@ header .search-form input {
 }
 @media (max-width: 414px) {
   .news-item {
-    grid-template-columns: repeat(1, 1fr);
     display: flex;
     flex-direction: column;
-    grid-gap: 50px 0;
   }
   .news-item .news-body h3 {
     margin-top: 50px;
@@ -474,10 +472,8 @@ header .search-form input {
 }
 @media (max-width: 414px) {
   .news-item.text-first {
-    grid-template-columns: repeat(1, 1fr);
     display: flex;
     flex-direction: column;
-    grid-gap: 50px 0;
     flex-direction: column-reverse;
   }
   .news-item.text-first .news-body h3 {
@@ -502,12 +498,14 @@ header .search-form input {
   width: 600px;
   margin-right: 144px;
 }
+.page-app .app-description-text p:nth-child(2) {
+  margin-bottom: 30px;
+}
 .page-app .btn {
   padding: 16px 40px;
   border-radius: 32px;
   font-size: 12.8px;
   text-transform: none;
-  width: auto;
 }
 
 @media (max-width: 414px) {
@@ -516,6 +514,11 @@ header .search-form input {
   }
   .page-app .app-description-text {
     width: 100%;
+  }
+  .page-app img {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
   }
 }
 footer {

@@ -120,10 +120,10 @@
 
   @media (max-width: $max-mob-width) {
     // flex-direction: column;
-    grid-template-columns: repeat(1, 1fr);
+    // grid-template-columns: repeat(1, 1fr);
     display: flex;
     flex-direction: column;
-    grid-gap: 50px 0;
+    // grid-gap: 50px 0;
 
     @if ($text-first == true) {
       flex-direction: column-reverse;    

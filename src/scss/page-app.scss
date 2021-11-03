@@ -20,6 +20,12 @@
     width: 600px;
   
     margin-right: 144px;
+    
+
+    p:nth-child(2) {
+      margin-bottom: 30px;
+      // border: green 1px solid;
+    }
   }
   
   .btn {
@@ -28,19 +34,29 @@
     border-radius: 32px;
     font-size: 12.8px;
     text-transform: none;
-    width: auto;
+    // width: auto;
   }
+
+  
 }
 
 @media (max-width: $max-mob-width) {   
   .page-app {
     .app-description { 
-      flex-direction: column-reverse;      
+      flex-direction: column-reverse;   
     }
     
     .app-description-text {
       width: 100%;
     }
+
+    img {
+      // width: 333px; хитра хрень!
+      // height: 278px;
+      margin: 0 auto;
+      width: auto;
+      height: auto;
+    }    
   }
 }
 
