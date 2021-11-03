@@ -130,6 +130,7 @@
 }
 .page-pricing .page-pricing-footer {
   line-height: 1.5;
+  margin-top: 45px;
 }
 
 @media (max-width: 414px) {
