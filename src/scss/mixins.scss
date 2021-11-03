@@ -73,13 +73,10 @@
   //   // flex-direction: row-reverse;
   //   // grid-auto-flow: column;
 
-  // }  
-
-  //тут надо переделать
-  // > img {
-  //   // margin-right: 50px;
   // }
-
+  // img {
+  //   margin-right: 50px;
+  // }
   .news-body {    
     h3 {
       margin-top: 0;
@@ -132,6 +129,13 @@
     // > img {
     //   margin-right: 0;
     // }
+    > img {
+      width: 372px;
+      height: 186px;
+      border: solid 1px red;
+      // width: 100%;
+      // height: 100%;
+    }
 
     .news-body {    
       h3 {
