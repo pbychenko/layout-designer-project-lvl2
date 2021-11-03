@@ -4,9 +4,11 @@
   text-align: center;
   color: #FFFFFF;
 }
+.page-pricing h2 {
+  margin-bottom: 45px;
+}
 .page-pricing .pricing-cards {
   display: flex;
-  margin: 50px 0;
   justify-content: space-between;
 }
 .page-pricing .pricing-item {

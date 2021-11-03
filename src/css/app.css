@@ -178,7 +178,7 @@ header .search-form input {
   header .horizontal-menu {
     flex-direction: column;
     align-items: flex-start;
-    margin: 15px 0;
+    margin: 20px 0;
   }
   header .search-form input {
     width: calc(100% - 10px);
@@ -242,9 +242,11 @@ header .search-form input {
   text-align: center;
   color: #FFFFFF;
 }
+.page-pricing h2 {
+  margin-bottom: 45px;
+}
 .page-pricing .pricing-cards {
   display: flex;
-  margin: 50px 0;
   justify-content: space-between;
 }
 .page-pricing .pricing-item {

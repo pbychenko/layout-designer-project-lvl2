@@ -6,9 +6,12 @@
   text-align: center;
   color: $header-color;
 
+  h2 {
+    margin-bottom: 45px;
+  }
+
   .pricing-cards {
     display: flex;
-    margin: 50px 0;
     justify-content: space-between;
   }
   
