@@ -619,7 +619,7 @@ footer .footer-second-part ul li {
 }
 
 .popular-tracks {
-  margin-top: 50px;
+  margin-top: 45px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 25px 50px;
