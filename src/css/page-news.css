@@ -27,7 +27,7 @@
   margin-bottom: 25px;
 }
 .news-item .news-footer .news-author {
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 .news-item .news-footer .news-author img, .news-item .news-footer span {
   margin-right: 16px;
@@ -71,7 +71,7 @@
   margin-bottom: 25px;
 }
 .news-item.text-first .news-footer .news-author {
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 .news-item.text-first .news-footer .news-author img, .news-item.text-first .news-footer span {
   margin-right: 16px;

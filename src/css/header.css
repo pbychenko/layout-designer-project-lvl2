@@ -47,7 +47,7 @@ header .search-form input {
   background: #3C3B3D;
   border: none;
   padding: 5px 0 5px 10px;
-  border-radius: 7px;
+  border-radius: 30px;
   width: 240px;
   outline: none;
 }
@@ -62,11 +62,7 @@ header .search-form input {
   header .horizontal-menu {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 17px;
-    margin-bottom: 24px;
-  }
-  header .horizontal-menu li {
-    margin-right: 0;
+    margin: 15px 0;
   }
   header .search-form input {
     width: calc(100% - 10px);

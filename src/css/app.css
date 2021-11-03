@@ -163,7 +163,7 @@ header .search-form input {
   background: #3C3B3D;
   border: none;
   padding: 5px 0 5px 10px;
-  border-radius: 7px;
+  border-radius: 30px;
   width: 240px;
   outline: none;
 }
@@ -178,11 +178,7 @@ header .search-form input {
   header .horizontal-menu {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 17px;
-    margin-bottom: 24px;
-  }
-  header .horizontal-menu li {
-    margin-right: 0;
+    margin: 15px 0;
   }
   header .search-form input {
     width: calc(100% - 10px);
@@ -248,7 +244,7 @@ header .search-form input {
 }
 .page-pricing .pricing-cards {
   display: flex;
-  margin: 45px 0;
+  margin: 50px 0;
   justify-content: space-between;
 }
 .page-pricing .pricing-item {
@@ -413,7 +409,7 @@ header .search-form input {
   margin-bottom: 25px;
 }
 .news-item .news-footer .news-author {
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 .news-item .news-footer .news-author img, .news-item .news-footer span {
   margin-right: 16px;
@@ -457,7 +453,7 @@ header .search-form input {
   margin-bottom: 25px;
 }
 .news-item.text-first .news-footer .news-author {
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 .news-item.text-first .news-footer .news-author img, .news-item.text-first .news-footer span {
   margin-right: 16px;
@@ -489,7 +485,8 @@ header .search-form input {
 }
 
 .page-app {
-  padding: 100px 0;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 .page-app h2 {
   text-align: center;

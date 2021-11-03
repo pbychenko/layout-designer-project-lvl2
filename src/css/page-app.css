@@ -1,5 +1,6 @@
 .page-app {
-  padding: 100px 0;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 .page-app h2 {
   text-align: center;
