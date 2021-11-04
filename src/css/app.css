@@ -410,10 +410,10 @@ header .search-form input {
   text-transform: capitalize;
 }
 .news-item .news-body p {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 .news-item .news-footer .news-author {
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 .news-item .news-footer .news-author img, .news-item .news-footer span {
   margin-right: 16px;
@@ -443,6 +443,12 @@ header .search-form input {
     margin-top: 50px;
     font-size: 16px;
   }
+  .news-item .news-body p {
+    margin-bottom: 20px;
+  }
+  .news-item .news-footer .news-author {
+    margin-bottom: 45px;
+  }
   .news-item .btn {
     display: inline-block;
     width: auto;
@@ -460,10 +466,10 @@ header .search-form input {
   text-transform: capitalize;
 }
 .news-item.text-first .news-body p {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 .news-item.text-first .news-footer .news-author {
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 .news-item.text-first .news-footer .news-author img, .news-item.text-first .news-footer span {
   margin-right: 16px;
@@ -493,6 +499,12 @@ header .search-form input {
   .news-item.text-first .news-body h3 {
     margin-top: 50px;
     font-size: 16px;
+  }
+  .news-item.text-first .news-body p {
+    margin-bottom: 20px;
+  }
+  .news-item.text-first .news-footer .news-author {
+    margin-bottom: 45px;
   }
   .news-item.text-first .btn {
     display: inline-block;

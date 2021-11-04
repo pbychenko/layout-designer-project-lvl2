@@ -78,13 +78,13 @@
 
     p {
       // font-size: 16px; возможно придется менять если главный шрифт измениться
-      margin-bottom: 24px;
+      margin-bottom: 25px;
     }
   }
 
   .news-footer {
     .news-author {
-      margin-bottom: 48px;      
+      margin-bottom: 50px;      
     }
 
     .news-author img, span {
@@ -129,6 +129,17 @@
         margin-top: 50px;
         font-size: 16px;
       }
+
+      p {
+        // font-size: 16px; возможно придется менять если главный шрифт измениться
+        margin-bottom: 20px;
+      }
+    }
+
+    .news-footer {
+      .news-author {
+        margin-bottom: 45px;
+      }    
     }
 
     .btn {
