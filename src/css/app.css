@@ -556,7 +556,7 @@ footer {
 }
 footer .footer-first-part {
   display: flex;
-  padding: 3rem 0;
+  padding: 54px 0;
 }
 footer .footer-first-part > div {
   width: 270px;
@@ -580,7 +580,7 @@ footer .border {
   height: 2px;
 }
 footer .footer-second-part {
-  padding: 2rem 0;
+  padding: 36px 0;
 }
 footer .footer-second-part ul {
   display: flex;
