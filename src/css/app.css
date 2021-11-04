@@ -178,7 +178,7 @@ header .search-form input {
   header .horizontal-menu {
     flex-direction: column;
     align-items: flex-start;
-    margin: 20px 0;
+    margin: 15px 0;
   }
   header .search-form input {
     width: calc(100% - 10px);
@@ -610,11 +610,17 @@ footer .footer-second-part ul li {
 }
 
 @media (max-width: 414px) {
-  .buttons {
+  .artist-page-description h1 {
+    margin-top: 25px;
+  }
+  .artist-page-description .buttons {
     flex-direction: column;
   }
-
-  .btn-blue {
+  .artist-page-description .buttons img {
+    width: 20px;
+    height: 20px;
+  }
+  .artist-page-description .btn-blue {
     margin-bottom: 24px;
   }
 }

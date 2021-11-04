@@ -33,11 +33,17 @@
 }
 
 @media (max-width: 414px) {
-  .buttons {
+  .artist-page-description h1 {
+    margin-top: 25px;
+  }
+  .artist-page-description .buttons {
     flex-direction: column;
   }
-
-  .btn-blue {
+  .artist-page-description .buttons img {
+    width: 20px;
+    height: 20px;
+  }
+  .artist-page-description .btn-blue {
     margin-bottom: 24px;
   }
 }
