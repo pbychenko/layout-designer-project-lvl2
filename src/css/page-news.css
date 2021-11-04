@@ -48,6 +48,7 @@
   .news-item {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .news-item > img {
     width: 100%;
@@ -56,6 +57,10 @@
   .news-item .news-body h3 {
     margin-top: 50px;
     font-size: 16px;
+  }
+  .news-item .btn {
+    display: inline-block;
+    width: auto;
   }
 }
 
@@ -94,6 +99,7 @@
   .news-item.text-first {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     flex-direction: column-reverse;
   }
   .news-item.text-first > img {
@@ -103,5 +109,9 @@
   .news-item.text-first .news-body h3 {
     margin-top: 50px;
     font-size: 16px;
+  }
+  .news-item.text-first .btn {
+    display: inline-block;
+    width: auto;
   }
 }
