@@ -410,10 +410,10 @@ header .search-form input {
   text-transform: capitalize;
 }
 .news-item .news-body p {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .news-item .news-footer .news-author {
-  margin-bottom: 45px;
+  margin-bottom: 48px;
 }
 .news-item .news-footer .news-author img, .news-item .news-footer span {
   margin-right: 16px;
@@ -460,10 +460,10 @@ header .search-form input {
   text-transform: capitalize;
 }
 .news-item.text-first .news-body p {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .news-item.text-first .news-footer .news-author {
-  margin-bottom: 45px;
+  margin-bottom: 48px;
 }
 .news-item.text-first .news-footer .news-author img, .news-item.text-first .news-footer span {
   margin-right: 16px;
