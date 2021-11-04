@@ -20,10 +20,7 @@ footer h2 {
 footer li, footer a {
   color: #E0E0E0;
 }
-footer .social-networks ul {
-  display: flex;
-}
-footer .social-networks li {
+footer .social-networks a {
   margin-right: 24px;
 }
 footer .border {
@@ -34,11 +31,7 @@ footer .footer-second-part {
   padding-top: 40px;
   padding-bottom: 48px;
 }
-footer .footer-second-part ul {
-  display: flex;
-  margin: 0;
-}
-footer .footer-second-part ul li {
+footer .footer-second-part a {
   margin-right: 16px;
   line-height: 1.5;
 }
@@ -50,16 +43,14 @@ footer .footer-second-part ul li {
   footer .footer-first-part ul {
     margin-bottom: 30px;
   }
-  footer .footer-first-part .social-networks ul {
-    margin-bottom: 0;
-  }
-  footer .footer-second-part ul {
+  footer .footer-second-part {
+    display: flex;
     flex-direction: column;
   }
-  footer .footer-second-part ul li {
+  footer .footer-second-part a {
     margin-bottom: 16px;
   }
-  footer .footer-second-part ul li:last-child {
+  footer .footer-second-part a:last-child {
     margin-bottom: 0;
   }
 }

@@ -38,13 +38,20 @@ footer {
   }
 
   .social-networks {
-    ul {
-      display: flex;      
-    }
+    // ul {
+    //   display: flex;      
+    // }
     
-    li {
-      margin-right: 24px;
-    } 
+    // li {
+      // margin-right: 24px;
+      // padding: 0;
+      // border: solid red 1px;
+      a {
+        // border: solid red 1px;
+        margin-right: 24px;
+
+      }
+    // } 
   }
 
   .border {
@@ -56,15 +63,15 @@ footer {
     padding-top: 40px;
     padding-bottom: 48px;
 
-    ul {
-      display: flex;
-      margin: 0;
+    // > div {
+    //   // display: flex;
+      // margin: 0;
 
-      li {
+      a {
         margin-right: 16px;
         line-height: 1.5;        
       }
-    }
+    // }
   }
 }
 
@@ -77,18 +84,19 @@ footer {
         margin-bottom: 30px;
       }
 
-      .social-networks ul {
-        margin-bottom: 0;
-      }    
+      // .social-networks ul {
+      //   margin-bottom: 0;
+      // }    
     }
   
-    .footer-second-part ul {
+    .footer-second-part {
+      display: flex;
       flex-direction: column;
-      li {
+      a {
         margin-bottom: 16px;
       }
 
-      li:last-child {
+      a:last-child {
         margin-bottom: 0;
       }
     }
