@@ -206,7 +206,7 @@ header .search-form input {
 }
 .page-description form .form-group input {
   min-width: 250px;
-  min-height: 50px;
+  min-height: 44px;
   padding-left: 20px;
   border: solid 2px #cacaca;
   border-radius: 3px;
