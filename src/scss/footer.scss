@@ -8,13 +8,14 @@ footer {
     // display: grid;
     // grid-template-columns: repeat(4, 1fr);
     // grid-gap: 20px;
-    padding: 62px 0;
+    padding-top: 62px;
+    padding-bottom: 72px;
 
     > div {
       width: 270px;
       margin-right: 40px;
     }
-    
+
     ul {     
       margin-bottom: 0;
     }
@@ -52,7 +53,8 @@ footer {
   }
 
   .footer-second-part {
-    padding: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 50px;
 
     ul {
       display: flex;
