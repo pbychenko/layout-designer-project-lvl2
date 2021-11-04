@@ -593,6 +593,10 @@ footer .footer-second-part a {
   footer .footer-first-part {
     flex-direction: column;
   }
+  footer .footer-first-part > div {
+    width: auto;
+    margin-right: 0;
+  }
   footer .footer-first-part ul {
     margin-bottom: 30px;
   }

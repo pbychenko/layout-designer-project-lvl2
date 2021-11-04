@@ -80,6 +80,11 @@ footer {
     .footer-first-part {
       flex-direction: column;
 
+      > div {
+        width: auto;
+        margin-right: 0;
+      }
+
       ul {
         margin-bottom: 30px;
       }
