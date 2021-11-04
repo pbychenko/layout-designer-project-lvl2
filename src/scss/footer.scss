@@ -9,7 +9,7 @@ footer {
     // grid-template-columns: repeat(4, 1fr);
     // grid-gap: 20px;
     padding-top: 62px;
-    padding-bottom: 71px;
+    padding-bottom: 72px;
 
     > div {
       width: 270px;
@@ -49,7 +49,17 @@ footer {
       a {
         // border: solid red 1px;
         margin-right: 24px;
-
+        // padding-top: 4px;
+        // padding-bottom: 4px;
+        // font-size: 16px;
+        // height: 24px;
+        // box-sizing: border-box;
+        // // width: auto;
+        // // border: solid 1px red;
+        // img {
+        //   width: auto;
+        //   height: auto;
+        // }
       }
     // } 
   }
