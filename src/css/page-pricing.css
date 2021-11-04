@@ -5,7 +5,7 @@
   color: #FFFFFF;
 }
 .page-pricing h2 {
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 .page-pricing .pricing-cards {
   display: flex;
@@ -130,7 +130,7 @@
 }
 .page-pricing .page-pricing-footer {
   line-height: 1.5;
-  margin-top: 48px;
+  margin-top: 45px;
 }
 
 @media (max-width: 414px) {
