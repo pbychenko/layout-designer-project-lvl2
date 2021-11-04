@@ -33,7 +33,8 @@ footer .footer-second-part {
 }
 footer .footer-second-part a {
   margin-right: 16px;
-  height: 24px;
+  padding: 4px 0;
+  line-height: 1;
 }
 
 @media (max-width: 414px) {
