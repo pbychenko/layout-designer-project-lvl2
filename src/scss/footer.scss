@@ -71,11 +71,15 @@ footer {
 @media (max-width: $max-mob-width) {
   footer {  
     .footer-first-part {
-      flex-direction: column;    
-    }
-  
-    ul, h2 {
-      margin-left: 20px;
+      flex-direction: column;
+      
+      ul {
+        margin-bottom: 30px;
+      }
+
+      .social-networks ul {
+        margin-bottom: 0;
+      }    
     }
   
     .footer-second-part ul {
@@ -84,5 +88,5 @@ footer {
         margin-bottom: 16px;
       }   
     }
-  }  
+  }
 }

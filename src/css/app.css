@@ -600,8 +600,11 @@ footer .footer-second-part ul li {
   footer .footer-first-part {
     flex-direction: column;
   }
-  footer ul, footer h2 {
-    margin-left: 20px;
+  footer .footer-first-part ul {
+    margin-bottom: 30px;
+  }
+  footer .footer-first-part .social-networks ul {
+    margin-bottom: 0;
   }
   footer .footer-second-part ul {
     flex-direction: column;
