@@ -562,6 +562,9 @@ footer .footer-first-part > div {
   width: 270px;
   margin-right: 40px;
 }
+footer .footer-first-part ul {
+  margin-bottom: 0;
+}
 footer h2 {
   margin-bottom: 15px;
   font-size: 18px;
