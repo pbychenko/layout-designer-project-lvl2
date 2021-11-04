@@ -612,6 +612,9 @@ footer .footer-second-part ul li {
   footer .footer-second-part ul li {
     margin-bottom: 16px;
   }
+  footer .footer-second-part ul li:last-child {
+    margin-bottom: 0;
+  }
 }
 .artist-page-description {
   background-image: url(../images/Morten\ Harket.png);
