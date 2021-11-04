@@ -4,7 +4,7 @@ footer {
 footer .footer-first-part {
   display: flex;
   padding-top: 62px;
-  padding-bottom: 72px;
+  padding-bottom: 71px;
 }
 footer .footer-first-part > div {
   width: 270px;
@@ -32,7 +32,7 @@ footer .border {
 }
 footer .footer-second-part {
   padding-top: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 49px;
 }
 footer .footer-second-part ul {
   display: flex;
