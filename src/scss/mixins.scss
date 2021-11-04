@@ -126,13 +126,13 @@
       flex-direction: column-reverse;    
     }  
 
-    // > img {
-    //   // width: 372px;
-    //   // height: 186px;
-    //   // border: solid 1px red;
-    //   width: 100%;
-    //   height: 100%;
-    // }
+    > img {
+      // width: 372px;
+      // height: 186px;
+      // border: solid 1px red;
+      width: 100%;
+      height: auto;
+    }
 
     .news-body {    
       h3 {
