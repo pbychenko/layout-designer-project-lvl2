@@ -5,7 +5,8 @@
   ],
   "plugins": [
     "stylelint-order",
-    "stylelint-config-rational-order/plugin"
+    "stylelint-config-rational-order/plugin",
+    "stylelint-scss"
   ],
   "rules": {
     "declaration-empty-line-before": null,
