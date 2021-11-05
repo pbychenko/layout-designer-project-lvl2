@@ -3,8 +3,10 @@
 
 .page-pricing {
   padding-top: 100px;
-  text-align: center;
+
   color: $header-color;
+
+  text-align: center;
 
   h2 {
     margin-bottom: 50px;
@@ -14,37 +16,38 @@
     display: flex;
     justify-content: space-between;
   }
-  
+
   .pricing-item {
     margin-right: 50px;
   }
-  
+
   .pricing-item:nth-child(3) {
     margin-right: 0;
   }
-  
+
   .pricing-item.free {
     @include pricing-item(subscribe_1);
   }
-  
+
   .pricing-item.standart {
     @include pricing-item(subscribe_2);
   }
-  
+
   .pricing-item.premium {
     @include pricing-item(subscribe_3);
   }
-  
+
   .page-pricing-footer {
     // font-size: 16px;//убрал так изменил шрифт
-    line-height: 1.5;
     margin-top: 38px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+
+    line-height: 1.5;
     // border:solid 1px red;
   }
 }
 
-@media (max-width: $max-mob-width) {   
+@media (max-width: $max-mob-width) {
   .pricing-cards {
     flex-direction: column;
 
@@ -52,9 +55,9 @@
       margin-right: 0;
       margin-bottom: 50px;
     }
-    
+
     .pricing-item:nth-child(3) {
-      margin-bottom: 0px;
-    }    
-  }  
+      margin-bottom: 0;
+    }
+  }
 }

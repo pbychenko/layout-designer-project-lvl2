@@ -1,28 +1,29 @@
 @import "variables.scss";
 
 .btn {
-  text-transform: uppercase;
   width: 100%;
-  color: $header-color;
-  border-radius: 5px;
-  border: none;
+
   padding: 20px 0;
+
+  border: none;
+
+  border-radius: 5px;
+
+  color: $header-color;
+
+  text-transform: uppercase;
 }
 
 .btn-green {
-  background-color: #34C176;;
+  background-color: #34c176;
 }
 
 .btn-blue {
-  background-color:  #5328A1;
+  background-color: #5328a1;
 }
 
 .btn-brown {
-  background-color:  #95390C;
-}
-
-.btn-brown {
-  background-color:  #95390C;
+  background-color: #95390c;
 }
 
 .btn-transparent {

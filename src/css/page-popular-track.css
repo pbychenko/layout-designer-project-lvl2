@@ -3,15 +3,15 @@
 }
 
 .popular-tracks {
-  margin-top: 48px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-gap: 25px 50px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 48px;
 }
 
 .popular-track {
-  grid-column: span 1;
   display: flex;
+  grid-column: span 1;
   align-items: center;
 }
 .popular-track img {
@@ -20,15 +20,15 @@
   margin-right: 15px;
 }
 .popular-track .track-info {
-  width: calc(100% - 70px);
   display: flex;
   justify-content: space-between;
+  width: calc(100% - 70px);
   font-size: 12.8px;
 }
 .popular-track .track-info h3 {
-  font-size: 12.8px;
-  font-weight: bold;
   margin: 0;
+  font-weight: bold;
+  font-size: 12.8px;
 }
 .popular-track .track-info p {
   margin: 0;

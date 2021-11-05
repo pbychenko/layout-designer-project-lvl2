@@ -10,96 +10,61 @@ footer {
     // grid-gap: 20px;
     padding-top: 62px;
     padding-bottom: 72px;
-    // flex-wrap: wrap;
 
     > div {
       width: 270px;
       margin-right: 40px;
-      box-sizing: border-box;
     }
 
     > div:last-child {
-      // border: solid 1px red;
       margin-right: 0;
     }
 
-    ul {     
+    ul {
       margin-bottom: 0;
     }
-
-    // .contacts {
-    //   margin-right: 65px;
-    // }
   }
 
   h2 {
     margin-bottom: 15px;
+
     font-size: 18px;
-    // line-height: 1.5;  
   }
 
-  li, a {
-    // font-size: 16px;
-    // line-height: 1.5;
-    color: #E0E0E0;
+  li,
+  a {
+    color: #e0e0e0;
   }
 
   .social-networks {
-    // ul {
-    //   display: flex;      
-    // }
-    
-    // li {
-      // margin-right: 24px;
-      // padding: 0;
-      // border: solid red 1px;
-      a {
-        // border: solid red 1px;
-        margin-right: 20px;
-        // padding-top: 4px;
-        // padding-bottom: 4px;
-        // font-size: 16px;
-        height: 24px;
-        // box-sizing: border-box;
-        // // width: auto;
-        // // border: solid 1px red;
-        // img {
-        //   width: auto;
-        //   height: auto;
-        // }
-      }
-    // } 
+    a {
+      height: 24px;
+
+      margin-right: 20px;
+    }
   }
 
   .border {
-    background-color: $main-color;
     height: 2px;
+
+    background-color: $main-color;
   }
 
   .footer-second-part {
     padding-top: 40px;
     padding-bottom: 47px;
 
-    // > div {
-    //   // display: flex;
-      // margin: 0;
+    a {
+      margin-right: 16px;
+      padding: 4px 0;
 
-      a {
-        margin-right: 16px;
-        // line-height: 24px;
-        // height: 24px;
-        padding: 4px 0;
-        line-height: 1;
-        // min-height: 24px;
-        // font-size: 16px;
-        // height: 24px;      
-      }
-    // }
+      line-height: 1;
+    }
   }
 }
 
 @media (max-width: $max-mob-width) {
-  footer {  
+  footer {
     .footer-first-part {
       flex-direction: column;
 
@@ -111,15 +76,12 @@ footer {
       ul {
         margin-bottom: 30px;
       }
-
-      // .social-networks ul {
-      //   margin-bottom: 0;
-      // }    
     }
-  
+
     .footer-second-part {
       display: flex;
       flex-direction: column;
+
       a {
         margin-bottom: 16px;
       }

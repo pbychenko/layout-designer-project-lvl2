@@ -1,13 +1,13 @@
 .page-similar {
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 .similar-items {
-  margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
+  grid-template-columns: repeat(4, 250px);
+  margin-top: 50px;
 }
 
 .similar-item {
@@ -21,14 +21,14 @@
   text-align: center;
 }
 .similar-item .similar-info h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: capitalize;
   margin-bottom: 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
 }
 .similar-item .similar-info p {
   margin: 0;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 @media (max-width: 414px) {

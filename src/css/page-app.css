@@ -1,18 +1,18 @@
 .page-app {
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 .page-app h2 {
-  text-align: center;
   margin-bottom: 50px;
+  text-align: center;
 }
 .page-app .app-description {
   display: flex;
 }
 .page-app .app-description-text {
-  line-height: 1.5;
   width: 600px;
   margin-right: 144px;
+  line-height: 1.5;
 }
 .page-app .app-description-text p:nth-child(2) {
   margin-bottom: 30px;
@@ -32,8 +32,8 @@
     width: 100%;
   }
   .page-app img {
-    margin: 0 auto;
     width: auto;
     height: auto;
+    margin: 0 auto;
   }
 }

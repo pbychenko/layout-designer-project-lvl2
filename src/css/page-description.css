@@ -1,8 +1,8 @@
 .page-description {
   position: relative;
-  text-align: center;
   padding: 200px 0;
-  color: #FFFFFF;
+  color: #fff;
+  text-align: center;
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
@@ -21,16 +21,16 @@
 .page-description form .form-group input {
   min-width: 250px;
   min-height: 44px;
+  margin-bottom: 1.5rem;
   padding-left: 20px;
   border: solid 2px #cacaca;
   border-radius: 3px;
+  color: #fff;
   font-size: 14px;
   background: transparent;
-  color: #FFFFFF;
-  margin-bottom: 1.5rem;
 }
 .page-description form ::placeholder {
-  color: #FFFFFF;
+  color: #fff;
   font-size: 14px;
 }
 

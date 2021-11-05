@@ -11,32 +11,32 @@
   border-radius: 1rem;
 
   @include page-desctiption-back($image);
-  
+
   h3 {
     margin-bottom: 200px;
-    // border: solid 1px red;
   }
 
   .pricing-value {
-    font-size: 64px;
-    line-height: 1em;
     display: flex;
     justify-content: center;
+
     margin-bottom: 40px;
 
-    // border: solid 1px red;
+    font-size: 64px;
+
+    line-height: 1em;
   }
 
   .pricing-value::after {
-    // border: solid 1px red;
-    margin-left: 15px;
     margin-top: 5px;
+    margin-left: 15px;
 
     font-size: 32px;
-    
+
     line-height: 1em;
-    
+
     text-transform: uppercase;
+
     content: 'руб.';
   }
 
@@ -46,32 +46,35 @@
   //   border: solid 1px white;
   //   padding: 20px 30px; //тут надо подумать как сделать красиво, чтобы проходила проверка
   // }
-
   a {
-    width: calc((100%) - 4rem);
     display: inline-block;
+
+    width: calc((100%) - 4rem);
+
+    padding: 20px 30px; //тут надо подумать как сделать красиво, чтобы проходила проверка
+
+    border: solid 1px white;
+
     font-size: 16px;
     font-family: Roboto, sans-serif;
-    border: solid 1px white;
-    padding: 20px 30px; //тут надо подумать как сделать красиво, чтобы проходила проверка
   }
 
-  .pricing-footer {    
+  .pricing-footer {
     margin: 64px 0;
-    font-size: 12.8px; 
+
+    font-size: 12.8px;
   }
 }
 
 @mixin news-item($text-first) {
-  // display: flex;
   display: grid;
-
-  grid-template-columns: repeat(2, 1fr);
   grid-gap: 0 50px;
+  grid-template-columns: repeat(2, 1fr);
 
-  .news-body {    
+  .news-body {
     h3 {
       margin-top: 0;
+
       font-size: 30px;
       text-transform: capitalize;
     }
@@ -84,49 +87,51 @@
 
   .news-footer {
     .news-author {
-      margin-bottom: 50px;      
+      margin-bottom: 50px;
     }
 
-    .news-author img, span {
+    .news-author img,
+    span {
       margin-right: 16px;
     }
 
     .news-author span {
-      text-transform: uppercase;
       font-size: 12.8px;
+      text-transform: uppercase;
     }
 
     .author-name {
-      color: #F89202;
-    }    
+      color: #f89202;
+    }
   }
 
   .btn {
     padding: 16px 30px;
-    font-size: 12px;
+
     border: solid 1px $main-color;
+
+    font-size: 12px;
   }
 
   @media (max-width: $max-mob-width) {
-    // flex-direction: column;
     // grid-template-columns: repeat(1, 1fr);
     display: flex;
     flex-direction: column;
     // flex-wrap: wrap;
-    // grid-gap: 50px 0;
 
     @if ($text-first == true) {
-      flex-direction: column-reverse;    
-    }  
+      flex-direction: column-reverse;
+    }
 
     > img {
       width: 100%;
       height: auto;
     }
 
-    .news-body {    
+    .news-body {
       h3 {
         margin-top: 50px;
+
         font-size: 16px;
       }
 
@@ -139,7 +144,7 @@
     .news-footer {
       .news-author {
         margin-bottom: 45px;
-      }    
+      }
     }
 
     .btn {
@@ -148,4 +153,3 @@
     }
   }
 }
-

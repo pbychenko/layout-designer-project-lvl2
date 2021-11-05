@@ -8,8 +8,8 @@
   margin-top: 50px;
 }
 .artist-page-description p {
-  color: #FFFFFF;
   margin-bottom: 48px;
+  color: #fff;
 }
 .artist-page-description .buttons {
   display: flex;
@@ -21,11 +21,11 @@
   filter: invert(100%);
 }
 .artist-page-description .buttons .btn {
-  padding: 20px 30px;
-  font-family: Roboto, sans-serif;
   width: 200px;
-  color: #FFFFFF;
+  padding: 20px 30px;
+  color: #fff;
   font-size: 12.8px;
+  font-family: Roboto, sans-serif;
   text-align: left;
 }
 .artist-page-description .buttons .btn-blue {

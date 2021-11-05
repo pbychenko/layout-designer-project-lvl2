@@ -9,7 +9,6 @@ footer .footer-first-part {
 footer .footer-first-part > div {
   width: 270px;
   margin-right: 40px;
-  box-sizing: border-box;
 }
 footer .footer-first-part > div:last-child {
   margin-right: 0;
@@ -21,16 +20,17 @@ footer h2 {
   margin-bottom: 15px;
   font-size: 18px;
 }
-footer li, footer a {
-  color: #E0E0E0;
+footer li,
+footer a {
+  color: #e0e0e0;
 }
 footer .social-networks a {
-  margin-right: 20px;
   height: 24px;
+  margin-right: 20px;
 }
 footer .border {
-  background-color: #cacaca;
   height: 2px;
+  background-color: #cacaca;
 }
 footer .footer-second-part {
   padding-top: 40px;

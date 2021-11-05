@@ -6,17 +6,18 @@
 }
 
 .popular-tracks {
-  margin-top: 48px;
-
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-gap: 25px 50px;
+  grid-template-columns: repeat(2, 1fr);
+
+  margin-top: 48px;
 }
 
 .popular-track {
+  display: flex;
+
   grid-column: span 1;
-  
-  display: flex; 
+
   align-items: center;
 
   img {
@@ -28,26 +29,28 @@
 
   .track-info {
     // border: solid 1px red;
-    width: calc((100%) - 70px);
     display: flex;
     justify-content: space-between;
+
+    width: calc((100%) - 70px);
+
     font-size: 12.8px;
 
     h3 {
-      font-size: 12.8px;
-      font-weight: bold;
       margin: 0;
+
+      font-weight: bold;
+      font-size: 12.8px;
     }
-  
+
     p {
       margin: 0;
     }
   }
 }
 
-
-@media (max-width: $max-mob-width) {  
+@media (max-width: $max-mob-width) {
   .popular-tracks {
     grid-template-columns: repeat(1, 1fr);
-  }  
+  }
 }

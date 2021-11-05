@@ -3,50 +3,52 @@
 
 .page-similar {
   // padding: 100px 0;
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 .similar-items {
-  margin-top: 50px;
-
   display: grid;
-  grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
+  grid-template-columns: repeat(4, 250px);
+
+  margin-top: 50px;
 }
 
 .similar-item {
   grid-column: span 1;
 
   img {
-    width:  250px;
+    width: 250px;
     height: 250px;
   }
 
   .similar-info {
     text-align: center;
-    
+
     h3 {
-      font-size: 18px;
-      font-weight: bold;
-      text-transform: capitalize;
       margin-bottom: 0;
+
+      font-weight: bold;
+      font-size: 18px;
+
+      text-transform: capitalize;
     }
-  
+
     p {
       margin: 0;
-      color: #E0E0E0;
+
+      color: #e0e0e0;
     }
   }
 }
 
-
-@media (max-width: $max-mob-width) {  
+@media (max-width: $max-mob-width) {
   .similar-items {
     grid-template-columns: repeat(2, 137px);
   }
 
-  .similar-item {  
+  .similar-item {
     img {
       width: 137px;
       height: 137px;

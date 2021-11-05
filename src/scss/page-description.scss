@@ -1,12 +1,14 @@
 @import "variables.scss";
-@import "mixins.scss"; 
+@import "mixins.scss";
 
 .page-description {
   position: relative;
-  text-align: center;
+
   padding: 200px 0;
 
   color: $header-color;
+
+  text-align: center;
 
   @include page-desctiption-back(banner);
 
@@ -16,22 +18,26 @@
 
   form {
     max-width: 570px;
-    margin: 0 auto;  
+    margin: 0 auto;
 
-    .form-group {        
+    .form-group {
       display: flex;
       justify-content: space-between;
-  
+
       input {
         min-width: 250px;
         min-height: 44px;
+        margin-bottom: 1.5rem;
         padding-left: 20px;
+
         border: solid 2px #cacaca;
         border-radius: 3px;
-        font-size: 14px;
-        background: transparent;
+
         color: $header-color;
-        margin-bottom: 1.5rem;
+
+        font-size: 14px;
+
+        background: transparent;
       }
     }
 
@@ -39,7 +45,6 @@
       color: $header-color;
       font-size: 14px;
     }
-
     // button { - интересно почему такой размер и шрифт по умолчанию
     //   font-family: Arial, sans-serif;
     //   font-size: 13.3px;
@@ -63,12 +68,12 @@
 
     form {
       .form-group {
-        flex-direction: column;  
+        flex-direction: column;
 
         input:nth-child(1) {
           margin-bottom: 24px;
         }
       }
     }
-  }    
+  }
 }

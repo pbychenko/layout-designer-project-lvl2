@@ -15,28 +15,24 @@
   src: url("../fonts/OpenSans-Light.ttf");
 }
 .btn {
-  text-transform: uppercase;
   width: 100%;
-  color: #FFFFFF;
-  border-radius: 5px;
-  border: none;
   padding: 20px 0;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .btn-green {
-  background-color: #34C176;
+  background-color: #34c176;
 }
 
 .btn-blue {
-  background-color: #5328A1;
+  background-color: #5328a1;
 }
 
 .btn-brown {
-  background-color: #95390C;
-}
-
-.btn-brown {
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 .btn-transparent {
@@ -44,20 +40,20 @@
 }
 
 body {
+  margin: 0;
   color: #cacaca;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  background-color: #08020D;
-  margin: 0;
+  background-color: #08020d;
 }
 
 h1,
 h2 {
+  margin: 0 auto;
+  color: #fff;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 0 auto;
-  color: #FFFFFF;
 }
 
 h1 {
@@ -69,15 +65,15 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  color: #fff;
   font-weight: 400;
+  font-size: 24px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: #FFFFFF;
 }
 
 a {
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -86,10 +82,10 @@ section {
 }
 
 .container {
-  max-width: 1240px;
-  padding: 0 20px;
-  margin: 0 auto;
   box-sizing: border-box;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 img {
@@ -117,23 +113,23 @@ ul {
 header {
   position: absolute;
   top: 25px;
-  width: 100%;
   z-index: 1;
+  width: 100%;
 }
 header .container {
   display: flex;
   justify-content: space-between;
-  text-transform: uppercase;
   font-size: 11px;
+  text-transform: uppercase;
 }
 header nav {
   display: flex;
 }
 header .logo {
-  color: #FFFFFF;
   display: flex;
   align-items: center;
   margin-right: 90px;
+  color: #fff;
 }
 header .logo img {
   width: 25px;
@@ -155,16 +151,16 @@ header .horizontal-menu a {
   color: #cacaca;
 }
 header .horizontal-menu .selected {
-  color: #FFFFFF;
+  color: #fff;
 }
 header .search-form input {
-  font-size: 13.3px;
-  color: #757575;
-  background: #3C3B3D;
-  border: none;
-  padding: 5px 0 5px 10px;
-  border-radius: 30px;
   width: 240px;
+  padding: 5px 0 5px 10px;
+  border: none;
+  border-radius: 30px;
+  color: #757575;
+  font-size: 13.3px;
+  background: #3c3b3d;
   outline: none;
 }
 
@@ -186,9 +182,9 @@ header .search-form input {
 }
 .page-description {
   position: relative;
-  text-align: center;
   padding: 200px 0;
-  color: #FFFFFF;
+  color: #fff;
+  text-align: center;
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
@@ -207,16 +203,16 @@ header .search-form input {
 .page-description form .form-group input {
   min-width: 250px;
   min-height: 44px;
+  margin-bottom: 1.5rem;
   padding-left: 20px;
   border: solid 2px #cacaca;
   border-radius: 3px;
+  color: #fff;
   font-size: 14px;
   background: transparent;
-  color: #FFFFFF;
-  margin-bottom: 1.5rem;
 }
 .page-description form ::placeholder {
-  color: #FFFFFF;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -239,8 +235,8 @@ header .search-form input {
 }
 .page-pricing {
   padding-top: 100px;
+  color: #fff;
   text-align: center;
-  color: #FFFFFF;
 }
 .page-pricing h2 {
   margin-bottom: 50px;
@@ -266,27 +262,27 @@ header .search-form input {
   margin-bottom: 200px;
 }
 .page-pricing .pricing-item.free .pricing-value {
-  font-size: 64px;
-  line-height: 1em;
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+  font-size: 64px;
+  line-height: 1em;
 }
 .page-pricing .pricing-item.free .pricing-value::after {
-  margin-left: 15px;
   margin-top: 5px;
+  margin-left: 15px;
   font-size: 32px;
   line-height: 1em;
   text-transform: uppercase;
   content: "руб.";
 }
 .page-pricing .pricing-item.free a {
-  width: calc(100% - 4rem);
   display: inline-block;
+  width: calc(100% - 4rem);
+  padding: 20px 30px;
+  border: solid 1px white;
   font-size: 16px;
   font-family: Roboto, sans-serif;
-  border: solid 1px white;
-  padding: 20px 30px;
 }
 .page-pricing .pricing-item.free .pricing-footer {
   margin: 64px 0;
@@ -303,27 +299,27 @@ header .search-form input {
   margin-bottom: 200px;
 }
 .page-pricing .pricing-item.standart .pricing-value {
-  font-size: 64px;
-  line-height: 1em;
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+  font-size: 64px;
+  line-height: 1em;
 }
 .page-pricing .pricing-item.standart .pricing-value::after {
-  margin-left: 15px;
   margin-top: 5px;
+  margin-left: 15px;
   font-size: 32px;
   line-height: 1em;
   text-transform: uppercase;
   content: "руб.";
 }
 .page-pricing .pricing-item.standart a {
-  width: calc(100% - 4rem);
   display: inline-block;
+  width: calc(100% - 4rem);
+  padding: 20px 30px;
+  border: solid 1px white;
   font-size: 16px;
   font-family: Roboto, sans-serif;
-  border: solid 1px white;
-  padding: 20px 30px;
 }
 .page-pricing .pricing-item.standart .pricing-footer {
   margin: 64px 0;
@@ -340,36 +336,36 @@ header .search-form input {
   margin-bottom: 200px;
 }
 .page-pricing .pricing-item.premium .pricing-value {
-  font-size: 64px;
-  line-height: 1em;
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+  font-size: 64px;
+  line-height: 1em;
 }
 .page-pricing .pricing-item.premium .pricing-value::after {
-  margin-left: 15px;
   margin-top: 5px;
+  margin-left: 15px;
   font-size: 32px;
   line-height: 1em;
   text-transform: uppercase;
   content: "руб.";
 }
 .page-pricing .pricing-item.premium a {
-  width: calc(100% - 4rem);
   display: inline-block;
+  width: calc(100% - 4rem);
+  padding: 20px 30px;
+  border: solid 1px white;
   font-size: 16px;
   font-family: Roboto, sans-serif;
-  border: solid 1px white;
-  padding: 20px 30px;
 }
 .page-pricing .pricing-item.premium .pricing-footer {
   margin: 64px 0;
   font-size: 12.8px;
 }
 .page-pricing .page-pricing-footer {
-  line-height: 1.5;
   margin-top: 38px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  line-height: 1.5;
 }
 
 @media (max-width: 414px) {
@@ -381,7 +377,7 @@ header .search-form input {
     margin-bottom: 50px;
   }
   .pricing-cards .pricing-item:nth-child(3) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 .page-news {
@@ -395,138 +391,138 @@ header .search-form input {
 .news-items {
   margin-top: 50px;
 }
-.news-items .news-item:nth-child(1) {
-  margin-bottom: 65px;
-}
-
-.news-item {
+.news-items .news-item {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-gap: 0 50px;
+  grid-template-columns: repeat(2, 1fr);
 }
-.news-item .news-body h3 {
+.news-items .news-item .news-body h3 {
   margin-top: 0;
   font-size: 30px;
   text-transform: capitalize;
 }
-.news-item .news-body p {
+.news-items .news-item .news-body p {
   margin-bottom: 25px;
 }
-.news-item .news-footer .news-author {
+.news-items .news-item .news-footer .news-author {
   margin-bottom: 50px;
 }
-.news-item .news-footer .news-author img, .news-item .news-footer span {
+.news-items .news-item .news-footer .news-author img,
+.news-items .news-item .news-footer span {
   margin-right: 16px;
 }
-.news-item .news-footer .news-author span {
-  text-transform: uppercase;
+.news-items .news-item .news-footer .news-author span {
   font-size: 12.8px;
+  text-transform: uppercase;
 }
-.news-item .news-footer .author-name {
-  color: #F89202;
+.news-items .news-item .news-footer .author-name {
+  color: #f89202;
 }
-.news-item .btn {
+.news-items .news-item .btn {
   padding: 16px 30px;
-  font-size: 12px;
   border: solid 1px #cacaca;
+  font-size: 12px;
 }
 @media (max-width: 414px) {
-  .news-item {
+  .news-items .news-item {
     display: flex;
     flex-direction: column;
   }
-  .news-item > img {
+  .news-items .news-item > img {
     width: 100%;
     height: auto;
   }
-  .news-item .news-body h3 {
+  .news-items .news-item .news-body h3 {
     margin-top: 50px;
     font-size: 16px;
   }
-  .news-item .news-body p {
+  .news-items .news-item .news-body p {
     margin-bottom: 20px;
   }
-  .news-item .news-footer .news-author {
+  .news-items .news-item .news-footer .news-author {
     margin-bottom: 45px;
   }
-  .news-item .btn {
+  .news-items .news-item .btn {
     display: inline-block;
     width: auto;
   }
 }
-
-.news-item.text-first {
+.news-items .news-item.text-first {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-gap: 0 50px;
+  grid-template-columns: repeat(2, 1fr);
 }
-.news-item.text-first .news-body h3 {
+.news-items .news-item.text-first .news-body h3 {
   margin-top: 0;
   font-size: 30px;
   text-transform: capitalize;
 }
-.news-item.text-first .news-body p {
+.news-items .news-item.text-first .news-body p {
   margin-bottom: 25px;
 }
-.news-item.text-first .news-footer .news-author {
+.news-items .news-item.text-first .news-footer .news-author {
   margin-bottom: 50px;
 }
-.news-item.text-first .news-footer .news-author img, .news-item.text-first .news-footer span {
+.news-items .news-item.text-first .news-footer .news-author img,
+.news-items .news-item.text-first .news-footer span {
   margin-right: 16px;
 }
-.news-item.text-first .news-footer .news-author span {
-  text-transform: uppercase;
+.news-items .news-item.text-first .news-footer .news-author span {
   font-size: 12.8px;
+  text-transform: uppercase;
 }
-.news-item.text-first .news-footer .author-name {
-  color: #F89202;
+.news-items .news-item.text-first .news-footer .author-name {
+  color: #f89202;
 }
-.news-item.text-first .btn {
+.news-items .news-item.text-first .btn {
   padding: 16px 30px;
-  font-size: 12px;
   border: solid 1px #cacaca;
+  font-size: 12px;
 }
 @media (max-width: 414px) {
-  .news-item.text-first {
+  .news-items .news-item.text-first {
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
   }
-  .news-item.text-first > img {
+  .news-items .news-item.text-first > img {
     width: 100%;
     height: auto;
   }
-  .news-item.text-first .news-body h3 {
+  .news-items .news-item.text-first .news-body h3 {
     margin-top: 50px;
     font-size: 16px;
   }
-  .news-item.text-first .news-body p {
+  .news-items .news-item.text-first .news-body p {
     margin-bottom: 20px;
   }
-  .news-item.text-first .news-footer .news-author {
+  .news-items .news-item.text-first .news-footer .news-author {
     margin-bottom: 45px;
   }
-  .news-item.text-first .btn {
+  .news-items .news-item.text-first .btn {
     display: inline-block;
     width: auto;
   }
 }
+.news-items .news-item:nth-child(1) {
+  margin-bottom: 65px;
+}
 
 .page-app {
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 .page-app h2 {
-  text-align: center;
   margin-bottom: 50px;
+  text-align: center;
 }
 .page-app .app-description {
   display: flex;
 }
 .page-app .app-description-text {
-  line-height: 1.5;
   width: 600px;
   margin-right: 144px;
+  line-height: 1.5;
 }
 .page-app .app-description-text p:nth-child(2) {
   margin-bottom: 30px;
@@ -546,9 +542,9 @@ header .search-form input {
     width: 100%;
   }
   .page-app img {
-    margin: 0 auto;
     width: auto;
     height: auto;
+    margin: 0 auto;
   }
 }
 footer {
@@ -562,7 +558,6 @@ footer .footer-first-part {
 footer .footer-first-part > div {
   width: 270px;
   margin-right: 40px;
-  box-sizing: border-box;
 }
 footer .footer-first-part > div:last-child {
   margin-right: 0;
@@ -574,16 +569,17 @@ footer h2 {
   margin-bottom: 15px;
   font-size: 18px;
 }
-footer li, footer a {
-  color: #E0E0E0;
+footer li,
+footer a {
+  color: #e0e0e0;
 }
 footer .social-networks a {
-  margin-right: 20px;
   height: 24px;
+  margin-right: 20px;
 }
 footer .border {
-  background-color: #cacaca;
   height: 2px;
+  background-color: #cacaca;
 }
 footer .footer-second-part {
   padding-top: 40px;
@@ -627,8 +623,8 @@ footer .footer-second-part a {
   margin-top: 50px;
 }
 .artist-page-description p {
-  color: #FFFFFF;
   margin-bottom: 48px;
+  color: #fff;
 }
 .artist-page-description .buttons {
   display: flex;
@@ -640,11 +636,11 @@ footer .footer-second-part a {
   filter: invert(100%);
 }
 .artist-page-description .buttons .btn {
-  padding: 20px 30px;
-  font-family: Roboto, sans-serif;
   width: 200px;
-  color: #FFFFFF;
+  padding: 20px 30px;
+  color: #fff;
   font-size: 12.8px;
+  font-family: Roboto, sans-serif;
   text-align: left;
 }
 .artist-page-description .buttons .btn-blue {
@@ -671,15 +667,15 @@ footer .footer-second-part a {
 }
 
 .popular-tracks {
-  margin-top: 48px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-gap: 25px 50px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 48px;
 }
 
 .popular-track {
-  grid-column: span 1;
   display: flex;
+  grid-column: span 1;
   align-items: center;
 }
 .popular-track img {
@@ -688,15 +684,15 @@ footer .footer-second-part a {
   margin-right: 15px;
 }
 .popular-track .track-info {
-  width: calc(100% - 70px);
   display: flex;
   justify-content: space-between;
+  width: calc(100% - 70px);
   font-size: 12.8px;
 }
 .popular-track .track-info h3 {
-  font-size: 12.8px;
-  font-weight: bold;
   margin: 0;
+  font-weight: bold;
+  font-size: 12.8px;
 }
 .popular-track .track-info p {
   margin: 0;
@@ -712,10 +708,10 @@ footer .footer-second-part a {
 }
 
 .discography-items {
-  margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
+  grid-template-columns: repeat(4, 250px);
+  margin-top: 50px;
 }
 
 .discography-item {
@@ -726,14 +722,14 @@ footer .footer-second-part a {
   height: 250px;
 }
 .discography-item .discography-info h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: capitalize;
   margin-bottom: 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
 }
 .discography-item .discography-info p {
-  color: #E0E0E0;
   margin: 0;
+  color: #e0e0e0;
 }
 
 @media (max-width: 414px) {
@@ -747,15 +743,15 @@ footer .footer-second-part a {
   }
 }
 .page-similar {
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 .similar-items {
-  margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
+  grid-template-columns: repeat(4, 250px);
+  margin-top: 50px;
 }
 
 .similar-item {
@@ -769,14 +765,14 @@ footer .footer-second-part a {
   text-align: center;
 }
 .similar-item .similar-info h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: capitalize;
   margin-bottom: 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
 }
 .similar-item .similar-info p {
   margin: 0;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 @media (max-width: 414px) {
