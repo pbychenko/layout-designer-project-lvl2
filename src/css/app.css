@@ -562,6 +562,11 @@ footer .footer-first-part {
 footer .footer-first-part > div {
   width: 270px;
   margin-right: 40px;
+  box-sizing: border-box;
+}
+footer .footer-first-part > div:last-child {
+  border: solid 1px red;
+  margin-right: 0;
 }
 footer .footer-first-part ul {
   margin-bottom: 0;
@@ -575,6 +580,7 @@ footer li, footer a {
 }
 footer .social-networks a {
   margin-right: 20px;
+  height: 24px;
 }
 footer .border {
   background-color: #cacaca;

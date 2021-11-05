@@ -10,10 +10,18 @@ footer {
     // grid-gap: 20px;
     padding-top: 62px;
     padding-bottom: 72px;
+    // flex-wrap: wrap;
 
     > div {
       width: 270px;
       margin-right: 40px;
+      box-sizing: border-box;
+    }
+
+    > div:last-child {
+      border: solid 1px red;
+      margin-right: 0;
+
     }
 
     ul {     
@@ -52,7 +60,7 @@ footer {
         // padding-top: 4px;
         // padding-bottom: 4px;
         // font-size: 16px;
-        // height: 24px;
+        height: 24px;
         // box-sizing: border-box;
         // // width: auto;
         // // border: solid 1px red;
