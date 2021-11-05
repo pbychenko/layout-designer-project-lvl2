@@ -10,6 +10,9 @@
   "rules": {
     "declaration-empty-line-before": null,
     "order/properties-order": [],
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    
     "plugin/rational-order": [true, {
       "border-in-box-model": true,
       "empty-line-between-groups": true,
