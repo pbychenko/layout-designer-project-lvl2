@@ -6,19 +6,15 @@
   color: #fff;
   text-transform: uppercase;
 }
-
-.btn-green {
+.btn.btn-green {
   background-color: #34c176;
 }
-
-.btn-blue {
+.btn.btn-blue {
   background-color: #5328a1;
 }
-
-.btn-brown {
+.btn.btn-brown {
   background-color: #95390c;
 }
-
-.btn-transparent {
+.btn.btn-transparent {
   background: transparent;
 }

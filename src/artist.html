@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Портал «Music Box», pbychenko</title>
-  <link rel="stylesheet" href="./css/app.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">
-          <img src="./images/logo.svg" alt="логотип">
-          <p>Music Box</p>
-        </div>
-        <ul class="horizontal-menu">
-          <li><a href="#" class="selected">Главная</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Исполнители</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
-      <form class="search-form">
-        <input id="search" type="text" placeholder="ПОИСК...">  
-      </form>     
-    </div>
-  </header>
-  <main>
-    <section class="artist-page-description" id="page-description">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портал «Music Box», pbychenko</title>
+    <link rel="stylesheet" href="./css/app.css">
+  </head>
+  <body>
+    <header>
       <div class="container">
-        <h1>Morten Harket</h1>
-        <p>24 875 поклонников</p>
-        <div class="buttons">
-          <button class="btn btn-blue">
-            <div class="btn-container">
-              <img src="images/play-button.svg" alt="play button">
-              Микс
-            </div>              
-          </button>
-          <button class="btn btn-brown">
-            <img src="./images/heart.svg" alt="избранное">
-            избранное
-          </button>
-        </div>
+        <nav>
+          <div class="logo">
+            <img src="./images/logo.svg" alt="логотип">
+            <p>Music Box</p>
+          </div>
+          <ul class="horizontal-menu">
+            <li><a href="#" class="selected">Главная</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Исполнители</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <form class="search-form">
+          <input id="search" type="text" placeholder="ПОИСК...">  
+        </form>     
       </div>
-    </section>
-    
-    <section class="page-popular-track container" id="page-popular-track">
-      <!-- <div class="container"> -->
+    </header>
+
+    <main>
+      <section class="artist-page-description" id="page-description">
+        <div class="container">
+          <h1>Morten Harket</h1>
+          <p>24 875 поклонников</p>
+          <div class="buttons">
+            <button class="btn btn-blue">
+              <div class="btn-container">
+                <img src="images/play-button.svg" alt="play button">
+                Микс
+              </div>              
+            </button>
+            <button class="btn btn-brown">
+              <img src="./images/heart.svg" alt="избранное">
+              избранное
+            </button>
+          </div>
+        </div>
+      </section>
+      
+      <section class="page-popular-track container" id="page-popular-track">
         <h2>Популярные треки</h2>
         <div class="popular-tracks">
           <div class="popular-track">
@@ -111,11 +111,9 @@
             </div>            
           </div>
         </div>
-      <!-- </div> -->
-    </section>
+      </section>
 
-    <section class="page-discography container" id="page-discography">
-      <!-- <div class="container"> -->
+      <section class="page-discography container" id="page-discography">
         <h2>Дискография</h2>
         <div class="discography-items">
           <div class="discography-item">
@@ -161,11 +159,9 @@
             </div>
           </div>
         </div>
-      <!-- </div> -->
-    </section>
+      </section>
 
-    <section class="page-similar container" id="page-similar">
-      <!-- <div class="container"> -->
+      <section class="page-similar container" id="page-similar">
         <h2>Похожие исполнители</h2>
         <div class="similar-items">
           <div class="similar-item">
@@ -225,61 +221,57 @@
             </div>
           </div>
         </div>
-      <!-- </div> -->
-    </section>  
-  </main>
-  <footer>
-    <div class="container footer-first-part">
-      <div class="about">
-        <h2>О нас</h2>
-        <ul>
-          <li><a href="#">История компании</a></li>
-          <li><a href="#">Карьера</a></li>
-          <li><a href="#">Особенности</a></li>
-          <li><a href="#">Пресса</a></li>
-        </ul>
-      </div>
+      </section>  
+    </main>
+    <footer>
+      <div class="container footer-first-part">
+        <div class="about">
+          <h2>О нас</h2>
+          <ul>
+            <li><a href="#">История компании</a></li>
+            <li><a href="#">Карьера</a></li>
+            <li><a href="#">Особенности</a></li>
+            <li><a href="#">Пресса</a></li>
+          </ul>
+        </div>
 
-      <div class="support">
-        <h2>Поддержка</h2>   
-        <ul>         
-          <li><a href="#">База знаний</a></li>
-          <li><a href="#">Тарифы</a></li>
-          <li><a href="#">Мобильное приложение</a></li>
-          <li><a href="#">Условия использования</a></li>
-        </ul>
-      </div>
+        <div class="support">
+          <h2>Поддержка</h2>   
+          <ul>         
+            <li><a href="#">База знаний</a></li>
+            <li><a href="#">Тарифы</a></li>
+            <li><a href="#">Мобильное приложение</a></li>
+            <li><a href="#">Условия использования</a></li>
+          </ul>
+        </div>
 
-      <div class="contacts">
-        <h2>Контакты</h2>
-        <ul>          
-          <li><a href="#">hello@music.box</a></li>        
-          <li><span>Russia, Moscow. Music Box studio</span></li>
-          <li><a href="#">+ 7 499 999 99 99</a></li>    
-        </ul>
+        <div class="contacts">
+          <h2>Контакты</h2>
+          <ul>          
+            <li><a href="#">hello@music.box</a></li>        
+            <li><span>Russia, Moscow. Music Box studio</span></li>
+            <li><a href="#">+ 7 499 999 99 99</a></li>    
+          </ul>
+        </div>
+        
+        <div class="social-networks">
+          <h2>Подписывайтесь</h2>
+          <!-- <ul> -->
+            <a href="#"><img src="./images/Google+.png" alt="Google+"></a>
+            <a href="#"><img src="./images/Twitter.png" alt="Twitter"></a>  
+            <a href="#"><img src="./images/Facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./images/Instagram.png" alt="Instagram"></a>
+          <!-- </ul> -->
+        </div>
       </div>
-      
-      <div class="social-networks">
-        <h2>Подписывайтесь</h2>
-        <!-- <ul> -->
-          <a href="#"><img src="./images/Google+.png" alt="Google+"></a>
-          <a href="#"><img src="./images/Twitter.png" alt="Twitter"></a>  
-          <a href="#"><img src="./images/Facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="./images/Instagram.png" alt="Instagram"></a>
-          <!-- </li> -->
-        <!-- </ul> -->
-      </div>
-    </div>
-    <div class="border"></div>
-    <div class="container footer-second-part">
-      <!-- <div> -->
+      <div class="border"></div>
+      <div class="container footer-second-part">
         <a href="#">Магазин</a>
         <a href="#">Обслуживание</a>
         <a href="#">Блог</a>
         <a href="#">Поддержка</a>
         <a href="#">Контакты</a>
-      <!-- </div> -->
-    </div>
-  </footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
