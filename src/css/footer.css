@@ -46,7 +46,7 @@ footer .footer-second-part a {
   footer .footer-first-part {
     flex-direction: column;
   }
-  footer .footer-first-part > div {
+  footer .footer-first-part section {
     width: auto;
     margin-right: 0;
   }
