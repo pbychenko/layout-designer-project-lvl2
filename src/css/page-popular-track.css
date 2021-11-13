@@ -1,7 +1,3 @@
-.page-popular-track {
-  padding-top: 100px;
-}
-
 .popular-tracks {
   display: grid;
   grid-gap: 25px 50px;

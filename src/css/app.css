@@ -230,7 +230,6 @@ header .search-form input {
   }
 }
 .page-pricing {
-  padding-top: 100px;
   color: #fff;
   text-align: center;
 }
@@ -376,10 +375,6 @@ header .search-form input {
     margin-bottom: 0;
   }
 }
-.page-news {
-  padding-top: 100px;
-}
-
 .page-news h2 {
   text-align: center;
 }
@@ -504,10 +499,6 @@ header .search-form input {
   margin-bottom: 65px;
 }
 
-.page-app {
-  margin-bottom: 100px;
-  padding-top: 100px;
-}
 .page-app h2 {
   margin-bottom: 50px;
   text-align: center;
@@ -658,10 +649,6 @@ footer .footer-second-part a {
     margin-bottom: 24px;
   }
 }
-.page-popular-track {
-  padding-top: 100px;
-}
-
 .popular-tracks {
   display: grid;
   grid-gap: 25px 50px;
@@ -699,10 +686,6 @@ footer .footer-second-part a {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-.page-discography {
-  padding-top: 100px;
-}
-
 .discography-items {
   display: grid;
   grid-gap: 25px 50px;
@@ -738,11 +721,6 @@ footer .footer-second-part a {
     height: 137px;
   }
 }
-.page-similar {
-  margin-bottom: 100px;
-  padding-top: 100px;
-}
-
 .similar-items {
   display: grid;
   grid-gap: 25px 50px;
@@ -780,4 +758,11 @@ footer .footer-second-part a {
     width: 137px;
     height: 137px;
   }
+}
+.pt-100 {
+  padding-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
