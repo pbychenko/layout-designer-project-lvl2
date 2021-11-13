@@ -6,11 +6,11 @@ footer .footer-first-part {
   padding-top: 62px;
   padding-bottom: 72px;
 }
-footer .footer-first-part > div {
+footer .footer-first-part section {
   width: 270px;
   margin-right: 40px;
 }
-footer .footer-first-part > div:last-child {
+footer .footer-first-part section:last-child {
   margin-right: 0;
 }
 footer .footer-first-part ul {

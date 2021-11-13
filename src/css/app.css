@@ -551,11 +551,11 @@ footer .footer-first-part {
   padding-top: 62px;
   padding-bottom: 72px;
 }
-footer .footer-first-part > div {
+footer .footer-first-part section {
   width: 270px;
   margin-right: 40px;
 }
-footer .footer-first-part > div:last-child {
+footer .footer-first-part section:last-child {
   margin-right: 0;
 }
 footer .footer-first-part ul {
@@ -679,18 +679,18 @@ footer .footer-second-part a {
   height: 55px;
   margin-right: 15px;
 }
-.popular-track .track-info {
+.popular-track .track-header {
   display: flex;
   justify-content: space-between;
   width: calc(100% - 70px);
   font-size: 12.8px;
 }
-.popular-track .track-info h3 {
+.popular-track .track-header h3 {
   margin: 0;
   font-weight: bold;
   font-size: 12.8px;
 }
-.popular-track .track-info p {
+.popular-track .track-header p {
   margin: 0;
 }
 
