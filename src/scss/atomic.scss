@@ -12,10 +12,14 @@
   margin-top: 50px;
 }
 
-.wh-137 {
+.mob-wh-137 {
   @media (max-width: $max-mob-width) {
     @include wh(137px);
   }
+}
+
+.wh-55 {
+  @include wh(55px);
 }
 
 .grid-4 {
@@ -37,4 +41,16 @@
   @media (max-width: $max-mob-width) {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.a-i-center{
+  align-items: center;
 }
