@@ -649,13 +649,6 @@ footer .footer-second-part a {
     margin-bottom: 24px;
   }
 }
-.popular-tracks {
-  display: grid;
-  grid-gap: 25px 50px;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 48px;
-}
-
 .popular-track {
   display: flex;
   grid-column: span 1;
@@ -681,11 +674,6 @@ footer .footer-second-part a {
   margin: 0;
 }
 
-@media (max-width: 414px) {
-  .popular-tracks {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 .discography-item {
   grid-column: span 1;
 }
@@ -717,11 +705,6 @@ footer .footer-second-part a {
   color: #e0e0e0;
 }
 
-@media (max-width: 414px) {
-  .similar-items {
-    grid-template-columns: repeat(2, 137px);
-  }
-}
 .pt-100 {
   padding-top: 100px;
 }
@@ -749,5 +732,16 @@ footer .footer-second-part a {
 @media (max-width: 414px) {
   .grid-4 {
     grid-template-columns: repeat(2, 137px);
+  }
+}
+
+.grid-2 {
+  display: grid;
+  grid-gap: 25px 50px;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 414px) {
+  .grid-2 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
