@@ -31,7 +31,8 @@
 .grid-2 {
   display: grid;
   grid-gap: 25px 50px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 500px);
+  // grid-template-columns: repeat(2, 1fr);
 
   @media (max-width: $max-mob-width) {
     grid-template-columns: repeat(1, 1fr);
