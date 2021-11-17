@@ -1,15 +1,15 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-.discography-items {
-  display: grid;
-  grid-gap: 25px 50px;
-  grid-template-columns: repeat(4, 250px);
+// .discography-items {
+  // display: grid;
+  // grid-gap: 25px 50px;
+  // grid-template-columns: repeat(4, 250px);
 
   // display: flex;
   // flex-wrap: wrap;
-  margin-top: 50px;
-}
+  // margin-top: 50px;
+// }
 
 .discography-item {
   grid-column: span 1;
@@ -39,14 +39,14 @@
 }
 
 @media (max-width: $max-mob-width) {
-  .discography-items {
-    grid-template-columns: repeat(2, 137px);
-  }
+  // .discography-items {
+  //   grid-template-columns: repeat(2, 137px);
+  // }
 
-  .discography-item {
-    img {
-      width: 137px;
-      height: 137px;
-    }
-  }
+  // .discography-item {
+  //   img {
+  //     width: 137px;
+  //     height: 137px;
+  //   }
+  // }
 }

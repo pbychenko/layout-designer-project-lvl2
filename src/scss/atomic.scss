@@ -1,3 +1,5 @@
+@import "mixins.scss";
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -6,3 +8,22 @@
   margin-bottom: 100px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
+.wh-137 {
+  @media (max-width: $max-mob-width) {
+    @include wh(137px);
+  }
+}
+
+.grid-4 {
+  display: grid;
+  grid-gap: 25px 50px;
+  grid-template-columns: repeat(4, 250px);
+
+  @media (max-width: $max-mob-width) {
+    grid-template-columns: repeat(2, 137px);
+  }
+}

@@ -6,6 +6,11 @@
   background-size: cover;
 }
 
+@mixin wh($size) {
+  width: $size;
+  height: $size;
+}
+
 @mixin pricing-item($image) {
   padding: 0 1.5rem;
   border-radius: 1rem;
