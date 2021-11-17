@@ -672,6 +672,10 @@ footer .footer-second-part a {
 }
 .popular-track .track-header p {
   margin: 0;
+  color: #E0E0E0;
+}
+.popular-track .track-header .track-duration {
+  color: #E0E0E0;
 }
 
 .discography-item {
@@ -714,7 +718,7 @@ footer .footer-second-part a {
 }
 
 .mt-50 {
-  margin-top: 48px;
+  margin-top: 50px;
 }
 
 @media (max-width: 414px) {

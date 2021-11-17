@@ -2,10 +2,6 @@
 @import "mixins.scss";
 
 .popular-tracks {
-  // display: grid;
-  // grid-gap: 25px 50px;
-  // grid-template-columns: repeat(2, 1fr);
-
   // margin-top: 50px;
 }
 
@@ -41,12 +37,11 @@
 
     p {
       margin: 0;
+      color: #E0E0E0;
+    }
+
+    .track-duration {
+      color: #E0E0E0;
     }
   }
 }
-
-// @media (max-width: $max-mob-width) {
-//   .popular-tracks {
-//     grid-template-columns: repeat(1, 1fr);
-//   }
-// }
