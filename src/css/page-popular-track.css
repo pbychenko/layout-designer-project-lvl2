@@ -11,6 +11,7 @@
 .popular-track .track-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: calc(100% - 70px);
   font-size: 12.8px;
 }
