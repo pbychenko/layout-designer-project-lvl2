@@ -31,7 +31,7 @@
 .grid-2 {
   display: grid;
   grid-gap: 25px 50px;
-  grid-template-columns: repeat(2, 500px);
+  grid-template-columns: repeat(2, 550px);
 }
 @media (max-width: 414px) {
   .grid-2 {
