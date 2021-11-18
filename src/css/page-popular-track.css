@@ -4,6 +4,7 @@
 .popular-track .track-header {
   width: calc(100% - 70px);
   font-size: 12.8px;
+  color: #E0E0E0;
 }
 .popular-track .track-header h3 {
   margin: 0;
@@ -12,8 +13,4 @@
 }
 .popular-track .track-header p {
   margin: 0;
-  color: #E0E0E0;
-}
-.popular-track .track-header .track-duration {
-  color: #E0E0E0;
 }

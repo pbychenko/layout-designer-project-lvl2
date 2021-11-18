@@ -2,21 +2,14 @@
   background-image: url(../images/Morten\ Harket.png);
   background-position: center;
   background-size: cover;
-  padding: 200px 0;
 }
 .artist-page-description h1 {
   margin-top: 50px;
 }
 .artist-page-description p {
-  margin-bottom: 48px;
   color: #fff;
 }
-.artist-page-description .buttons {
-  display: flex;
-}
 .artist-page-description .buttons img {
-  width: 25px;
-  height: 25px;
   margin-right: 16px;
   filter: invert(100%);
 }
@@ -29,21 +22,14 @@
   text-align: left;
 }
 .artist-page-description .buttons .btn-blue {
-  margin-right: 24px;
+  margin-right: 20px;
 }
 
 @media (max-width: 414px) {
   .artist-page-description h1 {
     margin-top: 25px;
   }
-  .artist-page-description .buttons {
-    flex-direction: column;
-  }
-  .artist-page-description .buttons img {
-    width: 20px;
-    height: 20px;
-  }
   .artist-page-description .btn-blue {
-    margin-bottom: 24px;
+    margin-bottom: 25px;
   }
 }
