@@ -4,6 +4,10 @@
   padding-top: 100px;
 }
 
+.ptb-200 {
+  padding: 200px 0;
+}
+
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -20,6 +24,10 @@
 
 .wh-55 {
   @include wh(55px);
+}
+
+.wh-20 {
+  @include wh(20px);
 }
 
 .grid-4 {
@@ -47,10 +55,14 @@
   display: flex;
 }
 
+.df-column {
+  flex-direction: column;
+}
+
 .jc-space-between {
   justify-content: space-between;
 }
 
-.a-i-center{
+.ai-center{
   align-items: center;
 }
