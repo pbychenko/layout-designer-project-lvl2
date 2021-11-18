@@ -12,23 +12,5 @@
   color: $header-color;
 
   text-transform: uppercase;
-
-  //по идее надо бы переименовать классы из btn-green в bg-green
-
-  &.btn-green {
-    background-color: #34c176;
-  }
-  
-  &.btn-blue {
-    background-color: #5328a1;
-  }
-  
-  &.btn-brown {
-    background-color: #95390c;
-  }
-  
-  &.btn-transparent {
-    background: transparent;
-  }
 }
 

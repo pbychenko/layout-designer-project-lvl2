@@ -9,43 +9,22 @@ header {
   width: 100%;
 
   .container {
-    display: flex;
-    justify-content: space-between;
-
     font-size: 11px;
 
     text-transform: uppercase;
   }
 
-  nav {
-    display: flex;
-  }
-
   .logo {
-    display: flex;
-    align-items: center;
-
     margin-right: 90px;
 
     color: $header-color;
 
     img {
-      width: 25px;
-      height: 25px;
       margin-right: 16px;
-    }
-
-    p {
-      margin: 0;
     }
   }
 
   .horizontal-menu {
-    display: flex;
-    align-items: center;
-
-    margin: 0;
-
     li {
       margin-right: 24px;
     }
@@ -79,10 +58,6 @@ header {
 
 @media (max-width: $max-mob-width) {
   header {
-    .container {
-      flex-direction: column;
-    }
-
     nav {
       flex-direction: column;
     }

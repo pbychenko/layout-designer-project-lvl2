@@ -21,6 +21,10 @@
   }
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .wh-55 {
   width: 55px;
   height: 55px;
@@ -29,6 +33,11 @@
 .wh-20 {
   width: 20px;
   height: 20px;
+}
+
+.wh-25 {
+  width: 25px;
+  height: 25px;
 }
 
 .grid-4 {
@@ -67,4 +76,24 @@
 
 .ai-center {
   align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.bg-green {
+  background-color: #34c176;
+}
+
+.bg-blue {
+  background-color: #5328a1;
+}
+
+.bg-brown {
+  background-color: #95390c;
+}
+
+.bg-transparent {
+  background: transparent;
 }

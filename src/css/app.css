@@ -22,18 +22,6 @@
   color: #fff;
   text-transform: uppercase;
 }
-.btn.btn-green {
-  background-color: #34c176;
-}
-.btn.btn-blue {
-  background-color: #5328a1;
-}
-.btn.btn-brown {
-  background-color: #95390c;
-}
-.btn.btn-transparent {
-  background: transparent;
-}
 
 body {
   margin: 0;
@@ -113,32 +101,15 @@ header {
   width: 100%;
 }
 header .container {
-  display: flex;
-  justify-content: space-between;
   font-size: 11px;
   text-transform: uppercase;
 }
-header nav {
-  display: flex;
-}
 header .logo {
-  display: flex;
-  align-items: center;
   margin-right: 90px;
   color: #fff;
 }
 header .logo img {
-  width: 25px;
-  height: 25px;
   margin-right: 16px;
-}
-header .logo p {
-  margin: 0;
-}
-header .horizontal-menu {
-  display: flex;
-  align-items: center;
-  margin: 0;
 }
 header .horizontal-menu li {
   margin-right: 24px;
@@ -161,9 +132,6 @@ header .search-form input {
 }
 
 @media (max-width: 414px) {
-  header .container {
-    flex-direction: column;
-  }
   header nav {
     flex-direction: column;
   }
@@ -623,7 +591,7 @@ footer .footer-second-part a {
   font-family: Roboto, sans-serif;
   text-align: left;
 }
-.artist-page-description .buttons .btn-blue {
+.artist-page-description .buttons .bg-blue {
   margin-right: 20px;
 }
 
@@ -700,6 +668,10 @@ footer .footer-second-part a {
   }
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .wh-55 {
   width: 55px;
   height: 55px;
@@ -708,6 +680,11 @@ footer .footer-second-part a {
 .wh-20 {
   width: 20px;
   height: 20px;
+}
+
+.wh-25 {
+  width: 25px;
+  height: 25px;
 }
 
 .grid-4 {
@@ -746,4 +723,24 @@ footer .footer-second-part a {
 
 .ai-center {
   align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.bg-green {
+  background-color: #34c176;
+}
+
+.bg-blue {
+  background-color: #5328a1;
+}
+
+.bg-brown {
+  background-color: #95390c;
+}
+
+.bg-transparent {
+  background: transparent;
 }
