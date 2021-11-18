@@ -4,8 +4,6 @@
 .artist-page-description {
   @include page-desctiption-back(Morten\ Harket);
 
-  // padding: 200px 0;
-
   h1 {
     margin-top: 50px;
   }
@@ -15,12 +13,7 @@
   }
 
   .buttons {
-    // margin-top: 50px;
-    // display: flex;
-
     img {
-      // width: 20px;
-      // height: 20px;
       margin-right: 16px;
 
       filter: invert(100%);
@@ -43,11 +36,6 @@
     .btn-blue {
       margin-right: 20px;
     }
-
-    // .btn-brown {
-    //   margin-left: -5px;
-    // }
-
   }
 }
 
@@ -56,15 +44,6 @@
     h1 {
       margin-top: 25px;
     }
-
-    // .buttons {
-      // flex-direction: column;
-
-      // img {
-      //   width: 20px;
-      //   height: 20px;
-      // }
-    // }
 
     .btn-blue {
       margin-bottom: 25px;
