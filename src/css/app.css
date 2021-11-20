@@ -166,7 +166,6 @@ header .search-form input {
 }
 .page-description {
   position: relative;
-  padding: 200px 0;
   color: #fff;
   text-align: center;
   background-image: url(../images/banner.png);
@@ -180,10 +179,6 @@ header .search-form input {
   max-width: 570px;
   margin: 0 auto;
 }
-.page-description form .form-group {
-  display: flex;
-  justify-content: space-between;
-}
 .page-description form .form-group input {
   min-width: 250px;
   min-height: 44px;
@@ -193,11 +188,9 @@ header .search-form input {
   border-radius: 3px;
   color: #fff;
   font-size: 14px;
-  background: transparent;
 }
 .page-description form ::placeholder {
   color: #fff;
-  font-size: 14px;
 }
 
 @media (max-width: 414px) {
@@ -210,11 +203,8 @@ header .search-form input {
   .page-description p {
     margin-top: 0;
   }
-  .page-description form .form-group {
-    flex-direction: column;
-  }
-  .page-description form .form-group input:nth-child(1) {
-    margin-bottom: 24px;
+  .page-description form .form-group input {
+    width: 100%;
   }
 }
 .page-pricing {

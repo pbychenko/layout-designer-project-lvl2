@@ -4,7 +4,7 @@
 .page-description {
   position: relative;
 
-  padding: 200px 0;
+  // padding: 200px 0;
 
   color: $header-color;
 
@@ -21,8 +21,8 @@
     margin: 0 auto;
 
     .form-group {
-      display: flex;
-      justify-content: space-between;
+      // display: flex;
+      // justify-content: space-between;
 
       input {
         min-width: 250px;
@@ -37,13 +37,13 @@
 
         font-size: 14px;
 
-        background: transparent;
+        // background: transparent;
       }
     }
 
     ::placeholder {
       color: $header-color;
-      font-size: 14px;
+      // font-size: 14px;
     }
   }
 }
@@ -64,11 +64,13 @@
 
     form {
       .form-group {
-        flex-direction: column;
-
-        input:nth-child(1) {
-          margin-bottom: 24px;
+        // flex-direction: column;
+        input {
+          width: 100%;
         }
+        // input:nth-child(1) {
+        //   margin-bottom: 24px;
+        // }
       }
     }
   }
