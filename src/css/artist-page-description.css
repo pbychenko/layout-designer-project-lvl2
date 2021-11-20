@@ -13,14 +13,6 @@
   margin-right: 16px;
   filter: invert(100%);
 }
-.artist-page-description .buttons .btn {
-  width: 200px;
-  padding: 20px 30px;
-  color: #fff;
-  font-size: 12.8px;
-  font-family: Roboto, sans-serif;
-  text-align: left;
-}
 .artist-page-description .buttons .bg-blue {
   margin-right: 20px;
 }
@@ -29,7 +21,7 @@
   .artist-page-description h1 {
     margin-top: 25px;
   }
-  .artist-page-description .btn-blue {
+  .artist-page-description .bg-blue {
     margin-bottom: 25px;
   }
 }

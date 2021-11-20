@@ -22,6 +22,26 @@
   color: #fff;
   text-transform: uppercase;
 }
+.btn.price-btn {
+  display: inline-block;
+  width: calc(100% - 4rem);
+  padding: 20px 30px;
+  border: solid 1px white;
+}
+.btn.app-btn {
+  padding: 16px 40px;
+  border-radius: 32px;
+  font-size: 12.8px;
+  text-transform: none;
+}
+.btn.artist-desc-btn {
+  width: 200px;
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 12.8px;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+}
 
 body {
   margin: 0;
@@ -239,14 +259,6 @@ header .search-form input {
   text-transform: uppercase;
   content: "руб.";
 }
-.page-pricing .pricing-item.free a {
-  display: inline-block;
-  width: calc(100% - 4rem);
-  padding: 20px 30px;
-  border: solid 1px white;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
-}
 .page-pricing .pricing-item.free .pricing-footer {
   margin: 64px 0;
   font-size: 12.8px;
@@ -276,14 +288,6 @@ header .search-form input {
   text-transform: uppercase;
   content: "руб.";
 }
-.page-pricing .pricing-item.standart a {
-  display: inline-block;
-  width: calc(100% - 4rem);
-  padding: 20px 30px;
-  border: solid 1px white;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
-}
 .page-pricing .pricing-item.standart .pricing-footer {
   margin: 64px 0;
   font-size: 12.8px;
@@ -312,14 +316,6 @@ header .search-form input {
   line-height: 1em;
   text-transform: uppercase;
   content: "руб.";
-}
-.page-pricing .pricing-item.premium a {
-  display: inline-block;
-  width: calc(100% - 4rem);
-  padding: 20px 30px;
-  border: solid 1px white;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
 }
 .page-pricing .pricing-item.premium .pricing-footer {
   margin: 64px 0;
@@ -482,12 +478,6 @@ header .search-form input {
 .page-app .app-description-text p:nth-child(2) {
   margin-bottom: 30px;
 }
-.page-app .btn {
-  padding: 16px 40px;
-  border-radius: 32px;
-  font-size: 12.8px;
-  text-transform: none;
-}
 
 @media (max-width: 414px) {
   .page-app .app-description {
@@ -583,14 +573,6 @@ footer .footer-second-part a {
   margin-right: 16px;
   filter: invert(100%);
 }
-.artist-page-description .buttons .btn {
-  width: 200px;
-  padding: 20px 30px;
-  color: #fff;
-  font-size: 12.8px;
-  font-family: Roboto, sans-serif;
-  text-align: left;
-}
 .artist-page-description .buttons .bg-blue {
   margin-right: 20px;
 }
@@ -599,7 +581,7 @@ footer .footer-second-part a {
   .artist-page-description h1 {
     margin-top: 25px;
   }
-  .artist-page-description .btn-blue {
+  .artist-page-description .bg-blue {
     margin-bottom: 25px;
   }
 }

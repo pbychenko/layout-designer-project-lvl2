@@ -13,12 +13,6 @@
 .page-app .app-description-text p:nth-child(2) {
   margin-bottom: 30px;
 }
-.page-app .btn {
-  padding: 16px 40px;
-  border-radius: 32px;
-  font-size: 12.8px;
-  text-transform: none;
-}
 
 @media (max-width: 414px) {
   .page-app .app-description {

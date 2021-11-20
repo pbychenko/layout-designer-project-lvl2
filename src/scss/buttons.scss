@@ -12,5 +12,42 @@
   color: $header-color;
 
   text-transform: uppercase;
+
+  &.price-btn {
+    display: inline-block;
+
+    // width: calc((100%) - 0.5rem);//как вариант, можно убрать padding
+    width: calc((100%) - 4rem);
+
+    padding: 20px 30px; //тут надо подумать как сделать красиво, чтобы проходила проверка
+
+    border: solid 1px white;
+
+    // font-size: 16px;
+    // font-family: Roboto, sans-serif;
+  }
+
+  &.app-btn {
+    padding: 16px 40px;
+
+    border-radius: 32px;
+
+    font-size: 12.8px;
+    text-transform: none;    
+  }
+
+  &.artist-desc-btn {
+    width: 200px;
+
+      padding: 20px 30px;
+
+      color: $header-color;
+
+      font-size: 12.8px;
+
+      font-family: Roboto, sans-serif;
+
+      text-align: left;
+  }
 }
 

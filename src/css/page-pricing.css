@@ -41,14 +41,6 @@
   text-transform: uppercase;
   content: "руб.";
 }
-.page-pricing .pricing-item.free a {
-  display: inline-block;
-  width: calc(100% - 4rem);
-  padding: 20px 30px;
-  border: solid 1px white;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
-}
 .page-pricing .pricing-item.free .pricing-footer {
   margin: 64px 0;
   font-size: 12.8px;
@@ -78,14 +70,6 @@
   text-transform: uppercase;
   content: "руб.";
 }
-.page-pricing .pricing-item.standart a {
-  display: inline-block;
-  width: calc(100% - 4rem);
-  padding: 20px 30px;
-  border: solid 1px white;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
-}
 .page-pricing .pricing-item.standart .pricing-footer {
   margin: 64px 0;
   font-size: 12.8px;
@@ -114,14 +98,6 @@
   line-height: 1em;
   text-transform: uppercase;
   content: "руб.";
-}
-.page-pricing .pricing-item.premium a {
-  display: inline-block;
-  width: calc(100% - 4rem);
-  padding: 20px 30px;
-  border: solid 1px white;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
 }
 .page-pricing .pricing-item.premium .pricing-footer {
   margin: 64px 0;
