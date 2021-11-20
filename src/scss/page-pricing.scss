@@ -6,14 +6,14 @@
 
   text-align: center;
 
-  h2 {
-    margin-bottom: 50px;
-  }
+  // h2 {
+    // margin-bottom: 50px;
+  // }
 
-  .pricing-cards {
-    display: flex;
-    justify-content: space-between;
-  }
+  // .pricing-cards {
+    // display: flex;
+    // justify-content: space-between;
+  // }
 
   .pricing-item {
     margin-right: 50px;
@@ -37,8 +37,8 @@
 
   .page-pricing-footer {
     // font-size: 16px;//убрал так изменил шрифт
-    margin-top: 38px;
-    margin-bottom: 0;
+    margin-top: 38px; // надо подумать как сделать изящнее
+    margin-bottom: 0; // надо подумать как сделать изящнее
 
     line-height: 1.5;
     // border:solid 1px red;
@@ -50,6 +50,7 @@
     flex-direction: column;
 
     .pricing-item {
+      // width: 100%;
       margin-right: 0;
       margin-bottom: 50px;
     }

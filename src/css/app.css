@@ -211,13 +211,6 @@ header .search-form input {
   color: #fff;
   text-align: center;
 }
-.page-pricing h2 {
-  margin-bottom: 50px;
-}
-.page-pricing .pricing-cards {
-  display: flex;
-  justify-content: space-between;
-}
 .page-pricing .pricing-item {
   margin-right: 50px;
 }
@@ -235,8 +228,6 @@ header .search-form input {
   margin-bottom: 200px;
 }
 .page-pricing .pricing-item.free .pricing-value {
-  display: flex;
-  justify-content: center;
   margin-bottom: 40px;
   font-size: 64px;
   line-height: 1em;
@@ -264,8 +255,6 @@ header .search-form input {
   margin-bottom: 200px;
 }
 .page-pricing .pricing-item.standart .pricing-value {
-  display: flex;
-  justify-content: center;
   margin-bottom: 40px;
   font-size: 64px;
   line-height: 1em;
@@ -293,8 +282,6 @@ header .search-form input {
   margin-bottom: 200px;
 }
 .page-pricing .pricing-item.premium .pricing-value {
-  display: flex;
-  justify-content: center;
   margin-bottom: 40px;
   font-size: 64px;
   line-height: 1em;
@@ -691,6 +678,10 @@ footer .footer-second-part a {
 
 .jc-space-between {
   justify-content: space-between;
+}
+
+.jc-center {
+  justify-content: center;
 }
 
 .ai-center {
