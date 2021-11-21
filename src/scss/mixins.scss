@@ -50,11 +50,26 @@
 }
 
 @mixin news-item($text-first) {
-  display: grid;
-  grid-gap: 0 50px;
-  grid-template-columns: repeat(2, 1fr);
+  // display: grid;
+  // grid-gap: 0 50px;
+  // grid-template-columns: repeat(2, 1fr);
+
+  display: flex;
+
+  img {
+  @if ($text-first == false) {
+      margin-right: 50px;
+    }
+  }
+  .news-body {
+  @if ($text-first == true) {
+      margin-right: 50px;
+    }
+  }  
 
   .news-body {
+    width: calc((100%) - 50px);
+
     h3 {
       margin-top: 0;
 
@@ -88,17 +103,9 @@
     }
   }
 
-  .btn {
-    padding: 16px 30px;
-
-    border: solid 1px $main-color;
-
-    font-size: 12px;
-  }
-
   @media (max-width: $max-mob-width) {
     // grid-template-columns: repeat(1, 1fr);
-    display: flex;
+    // display: flex;
     flex-direction: column;
     // flex-wrap: wrap;
 

@@ -24,6 +24,14 @@
     border: solid 1px white;
   }
 
+  &.news-btn {
+    padding: 16px 30px;
+
+    border: solid 1px $main-color;
+
+    font-size: 12px;
+  }
+
   &.app-btn {
     padding: 16px 40px;
 

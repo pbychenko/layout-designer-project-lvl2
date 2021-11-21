@@ -12,6 +12,11 @@
   padding: 20px 30px;
   border: solid 1px white;
 }
+.btn.news-btn {
+  padding: 16px 30px;
+  border: solid 1px #cacaca;
+  font-size: 12px;
+}
 .btn.app-btn {
   padding: 16px 40px;
   border-radius: 32px;
