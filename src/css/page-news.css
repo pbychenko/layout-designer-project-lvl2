@@ -10,9 +10,6 @@
   grid-gap: 0 50px;
   grid-template-columns: repeat(2, 1fr);
 }
-.news-items .news-item .news-body {
-  width: calc(100% - 50px);
-}
 .news-items .news-item .news-body h3 {
   margin-top: 0;
   font-size: 30px;
@@ -63,9 +60,6 @@
   display: grid;
   grid-gap: 0 50px;
   grid-template-columns: repeat(2, 1fr);
-}
-.news-items .news-item.text-first .news-body {
-  width: calc(100% - 50px);
 }
 .news-items .news-item.text-first .news-body h3 {
   margin-top: 0;
