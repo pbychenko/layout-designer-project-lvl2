@@ -5,9 +5,10 @@ const browserSync = require('browser-sync').create();
 const buildSass = () => {
   console.log('Complile SASS');
 
-  return src('./src/scss/**/*.scss')
+  return src('./src/scss/app.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(dest('./temp/styles/'));
+    .pipe(dest('./src/css/'))
+    .pipe(browserSync.stream());
 }
 
 const reload = (f) => {
@@ -17,22 +18,14 @@ const reload = (f) => {
   f();  
 }
 
-const moveStyles = () => {
-  console.log('Move app.css to /css');
-
-  return src('./temp/styles/app.css')
-  .pipe(dest('./src/css/'))
-  .pipe(browserSync.stream());
-}
-
 const browserSyncJob = () => {
   browserSync.init({
     server: "./src/"
   });
-  
-  watch('./src/scss/*.scss', series(buildSass, moveStyles));
+
+  watch('./src/scss/**/*.scss', buildSass);
   watch('./src/*.html', reload);
 };
 
 exports.server = browserSyncJob;
-exports.build = series(buildSass, moveStyles);
+exports.build = buildSass;
