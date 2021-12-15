@@ -435,17 +435,9 @@ header .search-form input {
   margin-bottom: 65px;
 }
 
-.page-app h2 {
-  margin-bottom: 50px;
-  text-align: center;
-}
-.page-app .app-description {
-  display: flex;
-}
 .page-app .app-description-text {
   width: 600px;
   margin-right: 144px;
-  line-height: 1.5;
 }
 .page-app .app-description-text p:nth-child(2) {
   margin-bottom: 30px;
@@ -459,8 +451,6 @@ header .search-form input {
     width: 100%;
   }
   .page-app img {
-    width: auto;
-    height: auto;
     margin: 0 auto;
   }
 }
@@ -639,6 +629,19 @@ footer .footer-second-part a {
 .wh-25 {
   width: 25px;
   height: 25px;
+}
+
+.wh-auto {
+  width: auto;
+  height: auto;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
 }
 
 .grid-4 {

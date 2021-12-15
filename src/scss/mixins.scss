@@ -9,6 +9,10 @@
   height: $size;
 }
 
+@mixin text-align($orientation) {
+  text-align: $orientation;
+}
+
 @mixin pricing-item($image) {
   padding: 0 1.5rem;
   border-radius: 1rem;

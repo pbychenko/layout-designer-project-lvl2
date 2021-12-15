@@ -1,28 +1,12 @@
-@import "variables.scss";
-@import "mixins.scss";
-
 .page-app {
-  h2 {
-    margin-bottom: 50px;
-
-    text-align: center;
-  }
-
-  .app-description {
-    display: flex;
-  }
-
   .app-description-text {
     // font-size: 16px;
     width: 600px;
 
     margin-right: 144px;
 
-    line-height: 1.5;
-
     p:nth-child(2) {
       margin-bottom: 30px;
-      // border: green 1px solid;
     }
   }
 }
@@ -38,12 +22,6 @@
     }
 
     img {
-      // width: 333px; хитра хрень!
-      // height: 278px;
-      width: auto;
-
-      height: auto;
-
       margin: 0 auto;
     }
   }
