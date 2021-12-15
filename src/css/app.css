@@ -214,7 +214,6 @@ header .search-form input {
 }
 .page-pricing {
   color: #fff;
-  text-align: center;
 }
 .page-pricing .pricing-item {
   margin-right: 50px;
@@ -308,19 +307,19 @@ header .search-form input {
   margin-bottom: 0;
   line-height: 1.5;
 }
-
 @media (max-width: 414px) {
-  .pricing-cards {
+  .page-pricing .pricing-cards {
     flex-direction: column;
   }
-  .pricing-cards .pricing-item {
+  .page-pricing .pricing-item {
     margin-right: 0;
     margin-bottom: 50px;
   }
-  .pricing-cards .pricing-item:nth-child(3) {
+  .page-pricing .pricing-item:nth-child(3) {
     margin-bottom: 0;
   }
 }
+
 .page-news h2 {
   text-align: center;
 }

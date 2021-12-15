@@ -1,10 +1,5 @@
-@import "variables.scss";
-@import "mixins.scss";
-
 .page-pricing {
   color: $white;
-
-  text-align: center;
 
   .pricing-item {
     margin-right: 50px;
@@ -32,13 +27,12 @@
     margin-bottom: 0; // надо подумать как сделать изящнее
 
     line-height: 1.5;
-    // border:solid 1px red;
   }
-}
 
-@media (max-width: $max-mob-width) {
-  .pricing-cards {
-    flex-direction: column;
+  @media (max-width: $max-mob-width) {
+    .pricing-cards {
+      flex-direction: column;
+    }
 
     .pricing-item {
       margin-right: 0;
