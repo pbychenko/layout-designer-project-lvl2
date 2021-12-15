@@ -1,6 +1,3 @@
-@import "variables.scss";
-@import "mixins.scss";
-
 .artist-page-description {
   @include page-desctiption-back(Morten\ Harket);
 
@@ -9,7 +6,7 @@
   }
 
   p {
-    color: $header-color;
+    color: $white;
   }
 
   .buttons {

@@ -1,5 +1,3 @@
-@import "variables.scss";
-
 @mixin page-desctiption-back($img) {
   background-image: url(../images/#{$img}.png);
   background-position: center;
@@ -99,7 +97,7 @@
     }
 
     .author-name {
-      color: #f89202;
+      color: $orange;
     }
   }
 

@@ -1,10 +1,7 @@
-@import "variables.scss";
-@import "mixins.scss";
-
 .page-description {
   position: relative;
   
-  color: $header-color;
+  color: $white;
 
   text-align: center;
 
@@ -25,17 +22,17 @@
         margin-bottom: 1.5rem;
         padding-left: 20px;
 
-        border: solid 2px #cacaca;
+        border: solid 2px $dark-gray;
         border-radius: 3px;
 
-        color: $header-color;
+        color: $white;
 
         font-size: 14px;
       }
     }
 
     ::placeholder {
-      color: $header-color;
+      color: $white;
     }
   }
 }

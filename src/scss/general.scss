@@ -1,11 +1,7 @@
-@import "variables.scss";
-@import "fonts.scss";
-@import "buttons.scss";
-
 body {
   margin: 0;
 
-  color: #cacaca;
+  color: $dark-gray;
 
   // font-size: 18px; //нигде нет шрифта в 18px
   font-size: 16px;
@@ -14,7 +10,7 @@ body {
 
   line-height: 1.5;
 
-  background-color: $background-color;
+  background-color: $black;
   // max-width: $max-desctop-width;
 }
 
@@ -22,7 +18,7 @@ h1,
 h2 {
   margin: 0 auto;
 
-  color: $header-color;
+  color: $white;
 
   font-weight: bold;
   // line-height: 1.5; задан выше
@@ -38,7 +34,7 @@ h2 {
 }
 
 h3 {//возможно стоит вынести отсюда
-  color: $header-color;
+  color: $white;
 
   font-weight: 400;
   font-size: 24px;
@@ -49,7 +45,7 @@ h3 {//возможно стоит вынести отсюда
 }
 
 a {
-  color: $header-color; //возможно надо изменить стиль
+  color: $white; //возможно надо изменить стиль
   text-decoration: none;
 }
 

@@ -1,5 +1,3 @@
-@import "variables.scss";
-
 header {
   position: absolute;
   top: 25px;
@@ -17,7 +15,7 @@ header {
   .logo {
     margin-right: 90px;
 
-    color: $header-color;
+    color: $white;
 
     img {
       margin-right: 16px;
@@ -30,11 +28,11 @@ header {
     }
 
     a {
-      color: $main-color;
+      color: $dark-gray;
     }
 
     .selected {
-      color: $header-color;
+      color: $white;
     }
   }
 
@@ -50,7 +48,7 @@ header {
 
     font-size: 13.3px;
 
-    background: #3c3b3d;
+    background: $dark;
 
     outline: none;
   }

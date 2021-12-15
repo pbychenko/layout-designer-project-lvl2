@@ -1,7 +1,5 @@
-@import "variables.scss";
-
 footer {
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  background: linear-gradient(89.75deg, #5328a1 32.83%, $red 81.56%);
 
   .footer-first-part {
     display: flex;
@@ -33,7 +31,7 @@ footer {
 
   li,
   a {
-    color: #e0e0e0;
+    color: $light-gray;
   }
 
   .social-networks {
@@ -47,7 +45,7 @@ footer {
   .border {
     height: 2px;
 
-    background-color: $main-color;
+    background-color: $dark-gray;
   }
 
   .footer-second-part {
