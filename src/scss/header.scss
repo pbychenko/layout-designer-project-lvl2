@@ -30,13 +30,13 @@ header {
       color: $white;
     }
   }
-}
 
-@media (max-width: $max-mob-width) {
-  header {
+  @media (max-width: $max-mob-width) {
     .horizontal-menu {
       align-items: flex-start;
       margin: 15px 0;
     }
   }
 }
+
+

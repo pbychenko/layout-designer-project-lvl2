@@ -157,13 +157,13 @@ header .horizontal-menu a {
 header .horizontal-menu .selected {
   color: #fff;
 }
-
 @media (max-width: 414px) {
   header .horizontal-menu {
     align-items: flex-start;
     margin: 15px 0;
   }
 }
+
 .page-description {
   position: relative;
   color: #fff;
