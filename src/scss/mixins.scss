@@ -13,6 +13,17 @@
   text-align: $orientation;
 }
 
+@mixin set-greed($descColumnCount, $mobColumnCount, $descColumnWidth, $mobColumnWidth, $descGap, $mobGap) {
+  display: grid;
+  grid-gap: $descGap;
+  grid-template-columns: repeat($descColumnCount, $descColumnWidth);
+
+  @media (max-width: $max-mob-width) {
+    grid-template-columns: repeat($mobColumnCount, $mobColumnWidth);
+    grid-gap: $mobGap;
+  }
+}
+
 @mixin pricing-item($image) {
   padding: 0 1.5rem;
   border-radius: 1rem;

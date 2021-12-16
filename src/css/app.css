@@ -444,10 +444,16 @@ footer {
 }
 footer .footer-first-part {
   display: grid;
-  grid-template-columns: repeat(4, 270fr);
   grid-gap: 40px;
+  grid-template-columns: repeat(4, 270px);
   padding-top: 62px;
   padding-bottom: 72px;
+}
+@media (max-width: 414px) {
+  footer .footer-first-part {
+    grid-template-columns: repeat(1, 270px);
+    grid-gap: 30px;
+  }
 }
 footer .footer-first-part ul {
   margin-bottom: 0;
@@ -461,7 +467,6 @@ footer a {
   color: #e0e0e0;
 }
 footer .social-networks a {
-  height: 24px;
   margin-right: 20px;
 }
 footer .border {
@@ -469,7 +474,6 @@ footer .border {
   background-color: #cacaca;
 }
 footer .footer-second-part {
-  display: flex;
   padding-top: 40px;
   padding-bottom: 47px;
 }
@@ -478,20 +482,7 @@ footer .footer-second-part a {
   padding: 4px 0;
   line-height: 1;
 }
-
 @media (max-width: 414px) {
-  footer .footer-first-part {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-  }
-  footer .footer-first-part section {
-    width: auto;
-    margin-right: 0;
-  }
-  footer .footer-second-part {
-    display: flex;
-    flex-direction: column;
-  }
   footer .footer-second-part a {
     margin-bottom: 16px;
   }
@@ -499,6 +490,7 @@ footer .footer-second-part a {
     margin-bottom: 0;
   }
 }
+
 .artist-page-description {
   background-image: url(../images/Morten\ Harket.png);
   background-position: center;
