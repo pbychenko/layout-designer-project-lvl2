@@ -49,18 +49,48 @@
 }
 
 .search-form input {
-  width: 240px;
-  padding: 5px 0 5px 10px;
+  min-width: 240px;
+  padding-left: 10px;
+  min-height: 25px;
   border: none;
   border-radius: 30px;
-  color: #757575;
   font-size: 13.3px;
   background: #3c3b3d;
   outline: none;
 }
+.search-form ::placeholder {
+  color: #757575;
+}
 @media (max-width: 414px) {
+  .search-form {
+    width: 100%;
+    display: flex;
+  }
   .search-form input {
-    width: calc(100% - 10px);
+    width: 100%;
+  }
+}
+
+.subsctiption-form {
+  max-width: 570px;
+  margin: 0 auto;
+}
+.subsctiption-form .form-group input {
+  min-width: 250px;
+  min-height: 44px;
+  margin-bottom: 1.5rem;
+  padding-left: 20px;
+  border: solid 2px #cacaca;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+}
+.subsctiption-form .form-group ::placeholder {
+  color: #fff;
+}
+@media (max-width: 414px) {
+  .subsctiption-form .form-group input {
+    width: 100%;
   }
 }
 
@@ -175,23 +205,6 @@ header .horizontal-menu .selected {
 .page-description h2 {
   margin-bottom: 30px;
 }
-.page-description form {
-  max-width: 570px;
-  margin: 0 auto;
-}
-.page-description form .form-group input {
-  min-width: 250px;
-  min-height: 44px;
-  margin-bottom: 1.5rem;
-  padding-left: 20px;
-  border: solid 2px #cacaca;
-  border-radius: 3px;
-  color: #fff;
-  font-size: 14px;
-}
-.page-description form ::placeholder {
-  color: #fff;
-}
 
 @media (max-width: 414px) {
   .page-description h1 {
@@ -202,9 +215,6 @@ header .horizontal-menu .selected {
   }
   .page-description p {
     margin-top: 0;
-  }
-  .page-description form .form-group input {
-    width: 100%;
   }
 }
 .page-pricing {

@@ -1,13 +1,11 @@
 .search-form {
   input {
-    width: 240px;
-  
-    padding: 5px 0 5px 10px;
+    min-width: 240px;
+    padding-left: 10px;
+    min-height: 25px;
   
     border: none;
     border-radius: 30px;
-  
-    color: #757575;
   
     font-size: 13.3px;
   
@@ -16,9 +14,48 @@
     outline: none;
   }
 
+  ::placeholder {
+    color: $gray;
+  }
+
   @media (max-width: $max-mob-width) {
+    width: 100%;
+    display: flex;
     input {
-      width: calc((100%) - 10px);
+      width: 100%;
+    }
+  }
+}
+
+.subsctiption-form {
+  max-width: 570px;
+  margin: 0 auto;
+
+  .form-group {
+    input {
+      min-width: 250px;
+      min-height: 44px;
+      margin-bottom: 1.5rem;
+      padding-left: 20px;
+
+      border: solid 2px $dark-gray;
+      border-radius: 3px;
+
+      color: $white;
+
+      font-size: 14px;
+    }
+
+    ::placeholder {
+      color: $white;
+    }
+  }  
+
+  @media (max-width: $max-mob-width) {
+    .form-group {
+      input {
+        width: 100%;
+      }
     }
   }
 }

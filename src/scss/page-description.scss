@@ -10,31 +10,6 @@
   h2 {
     margin-bottom: 30px;
   }
-
-  form {
-    max-width: 570px;
-    margin: 0 auto;
-
-    .form-group {
-      input {
-        min-width: 250px;
-        min-height: 44px;
-        margin-bottom: 1.5rem;
-        padding-left: 20px;
-
-        border: solid 2px $dark-gray;
-        border-radius: 3px;
-
-        color: $white;
-
-        font-size: 14px;
-      }
-    }
-
-    ::placeholder {
-      color: $white;
-    }
-  }
 }
 
 @media (max-width: $max-mob-width) {
@@ -49,14 +24,6 @@
 
     p {
       margin-top: 0;
-    }
-
-    form {
-      .form-group {
-        input {
-          width: 100%;
-        }
-      }
     }
   }
 }
