@@ -445,7 +445,7 @@ footer {
 footer .footer-first-part {
   display: grid;
   grid-template-columns: repeat(4, 270fr);
-  grid-gap: 20px;
+  grid-gap: 40px;
   padding-top: 62px;
   padding-bottom: 72px;
 }
@@ -482,14 +482,11 @@ footer .footer-second-part a {
 @media (max-width: 414px) {
   footer .footer-first-part {
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 15px;
+    grid-gap: 30px;
   }
   footer .footer-first-part section {
     width: auto;
     margin-right: 0;
-  }
-  footer .footer-first-part ul {
-    margin-bottom: 30px;
   }
   footer .footer-second-part {
     display: flex;
