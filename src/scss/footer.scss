@@ -3,10 +3,6 @@ footer {
 
   .footer-first-part {
     @include set-greed(4, 1, 270px, 1fr, 40px, 30px);
-    
-    // display: grid;
-    // grid-template-columns: repeat(4, 270px);
-    // grid-gap: 40px;
 
     padding-top: 62px;
     padding-bottom: 72px;
@@ -29,11 +25,9 @@ footer {
 
   .social-networks {
     a {
-      // height: 24px;
-
       margin-right: 20px;
     }
-  }
+  }  
 
   .border {
     height: 2px;
@@ -54,11 +48,6 @@ footer {
   }
 
   @media (max-width: $max-mob-width) {
-    .footer-first-part {
-      // grid-template-columns: repeat(1, 270px);
-      // grid-gap: 30px;
-    }
-
     .footer-second-part {
       a {
         margin-bottom: 16px;

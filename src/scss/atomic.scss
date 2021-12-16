@@ -48,26 +48,6 @@
   @include text-align(left);
 }
 
-.grid-4 {
-  display: grid;
-  grid-gap: 25px 50px;
-  grid-template-columns: repeat(4, 250px);
-
-  @media (max-width: $max-mob-width) {
-    grid-template-columns: repeat(2, 137px);
-  }
-}
-
-.grid-2 {
-  display: grid;
-  grid-gap: 25px 50px;
-  grid-template-columns: repeat(2, 550px);
-
-  @media (max-width: $max-mob-width) {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
 .d-flex {
   display: flex;
 }

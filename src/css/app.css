@@ -515,44 +515,77 @@ footer .footer-second-part a {
     margin-bottom: 25px;
   }
 }
-.popular-track img {
+.popular-tracks {
+  display: grid;
+  grid-gap: 25px 50px;
+  grid-template-columns: repeat(2, 550px);
+}
+@media (max-width: 414px) {
+  .popular-tracks {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 25px 50px;
+  }
+}
+.popular-tracks .popular-track img {
   margin-right: 15px;
 }
-.popular-track .track-header {
+.popular-tracks .popular-track .track-header {
   width: calc(100% - 70px);
   font-size: 12.8px;
   color: #e0e0e0;
 }
-.popular-track .track-header h3 {
+.popular-tracks .popular-track .track-header h3 {
   margin: 0;
   font-weight: bold;
   font-size: 12.8px;
 }
-.popular-track .track-header p {
+.popular-tracks .popular-track .track-header p {
   margin: 0;
 }
 
-.discography-info h3 {
+.discography-items {
+  display: grid;
+  grid-gap: 25px 50px;
+  grid-template-columns: repeat(4, 250px);
+}
+@media (max-width: 414px) {
+  .discography-items {
+    grid-template-columns: repeat(2, 137px);
+    grid-gap: 25px 50px;
+  }
+}
+.discography-items .discography-info h3 {
   margin-bottom: 0;
   font-weight: bold;
   font-size: 18px;
   text-transform: capitalize;
 }
-.discography-info p {
+.discography-items .discography-info p {
   margin: 0;
   color: #e0e0e0;
 }
 
-.similar-info {
+.similar-items {
+  display: grid;
+  grid-gap: 25px 50px;
+  grid-template-columns: repeat(4, 250px);
+}
+@media (max-width: 414px) {
+  .similar-items {
+    grid-template-columns: repeat(2, 137px);
+    grid-gap: 25px 50px;
+  }
+}
+.similar-items .similar-info {
   text-align: center;
 }
-.similar-info h3 {
+.similar-items .similar-info h3 {
   margin-bottom: 0;
   font-weight: bold;
   font-size: 18px;
   text-transform: capitalize;
 }
-.similar-info p {
+.similar-items .similar-info p {
   margin: 0;
   color: #e0e0e0;
 }
@@ -610,28 +643,6 @@ footer .footer-second-part a {
 
 .text-align-left {
   text-align: left;
-}
-
-.grid-4 {
-  display: grid;
-  grid-gap: 25px 50px;
-  grid-template-columns: repeat(4, 250px);
-}
-@media (max-width: 414px) {
-  .grid-4 {
-    grid-template-columns: repeat(2, 137px);
-  }
-}
-
-.grid-2 {
-  display: grid;
-  grid-gap: 25px 50px;
-  grid-template-columns: repeat(2, 550px);
-}
-@media (max-width: 414px) {
-  .grid-2 {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
 
 .d-flex {

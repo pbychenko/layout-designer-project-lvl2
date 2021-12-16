@@ -1,23 +1,27 @@
-.popular-track {
-  img {
-    margin-right: 15px;
-  }
+.popular-tracks {
+  @include set-greed(2, 1, 550px, 1fr, 25px 50px);
 
-  .track-header {
-    width: calc((100%) - 70px);
-
-    font-size: 12.8px;
-    color: $light-gray;
-
-    h3 {
-      margin: 0;
-
-      font-weight: bold;
-      font-size: 12.8px;
+  .popular-track {
+    img {
+      margin-right: 15px;
     }
-
-    p {
-      margin: 0;
+  
+    .track-header {
+      width: calc((100%) - 70px);
+  
+      font-size: 12.8px;
+      color: $light-gray;
+  
+      h3 {
+        margin: 0;
+  
+        font-weight: bold;
+        font-size: 12.8px;
+      }
+  
+      p {
+        margin: 0;
+      }
     }
   }
 }

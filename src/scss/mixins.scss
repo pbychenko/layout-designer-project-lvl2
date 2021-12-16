@@ -13,7 +13,7 @@
   text-align: $orientation;
 }
 
-@mixin set-greed($descColumnCount, $mobColumnCount, $descColumnWidth, $mobColumnWidth, $descGap, $mobGap) {
+@mixin set-greed($descColumnCount, $mobColumnCount, $descColumnWidth, $mobColumnWidth, $descGap, $mobGap:$descGap) {
   display: grid;
   grid-gap: $descGap;
   grid-template-columns: repeat($descColumnCount, $descColumnWidth);
