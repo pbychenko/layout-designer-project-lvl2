@@ -2,7 +2,7 @@ footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, $red 81.56%);
 
   .footer-first-part {
-    @include set-greed(4, 1, 270px, 270px, 40px, 30px);
+    @include set-greed(4, 1, 270px, 1fr, 40px, 30px);
     
     // display: grid;
     // grid-template-columns: repeat(4, 270px);

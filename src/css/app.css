@@ -451,7 +451,7 @@ footer .footer-first-part {
 }
 @media (max-width: 414px) {
   footer .footer-first-part {
-    grid-template-columns: repeat(1, 270px);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
   }
 }
