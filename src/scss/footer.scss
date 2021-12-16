@@ -2,21 +2,21 @@ footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, $red 81.56%);
 
   .footer-first-part {
-    display: flex;
-    // display: grid;
-    // grid-template-columns: repeat(4, 1fr);
-    // grid-gap: 20px;
+    // display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
     padding-top: 62px;
     padding-bottom: 72px;
 
     section {
       width: 270px;
-      margin-right: 40px;
+      // margin-right: 40px;
     }
 
-    section:last-child {
-      margin-right: 0;
-    }
+    // section:last-child {
+    //   margin-right: 0;
+    // }
 
     ul {
       margin-bottom: 0;
@@ -49,6 +49,7 @@ footer {
   }
 
   .footer-second-part {
+    display: flex;
     padding-top: 40px;
     padding-bottom: 47px;
 
@@ -64,7 +65,8 @@ footer {
 @media (max-width: $max-mob-width) {
   footer {
     .footer-first-part {
-      flex-direction: column;
+      // flex-direction: column;
+      grid-template-columns: repeat(1, 1fr);
 
       section {
         width: auto;
