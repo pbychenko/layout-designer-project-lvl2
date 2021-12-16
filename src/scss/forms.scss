@@ -1,0 +1,24 @@
+.search-form {
+  input {
+    width: 240px;
+  
+    padding: 5px 0 5px 10px;
+  
+    border: none;
+    border-radius: 30px;
+  
+    color: #757575;
+  
+    font-size: 13.3px;
+  
+    background: $dark;
+  
+    outline: none;
+  }
+
+  @media (max-width: $max-mob-width) {
+    input {
+      width: calc((100%) - 10px);
+    }
+  }
+}

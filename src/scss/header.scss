@@ -6,20 +6,15 @@ header {
 
   width: 100%;
 
-  .container {
-    font-size: 11px;
+  text-transform: uppercase;
 
-    text-transform: uppercase;
-  }
+  font-size: 11px;
 
   .logo {
+    width: 100px;
     margin-right: 90px;
 
     color: $white;
-
-    img {
-      margin-right: 16px;
-    }
   }
 
   .horizontal-menu {
@@ -35,39 +30,13 @@ header {
       color: $white;
     }
   }
-
-  .search-form input {
-    width: 240px;
-
-    padding: 5px 0 5px 10px;
-
-    border: none;
-    border-radius: 30px;
-
-    color: #757575;
-
-    font-size: 13.3px;
-
-    background: $dark;
-
-    outline: none;
-  }
 }
 
 @media (max-width: $max-mob-width) {
   header {
-    nav {
-      flex-direction: column;
-    }
-
     .horizontal-menu {
-      flex-direction: column;
       align-items: flex-start;
       margin: 15px 0;
-    }
-
-    .search-form input {
-      width: calc((100%) - 10px);
     }
   }
 }
