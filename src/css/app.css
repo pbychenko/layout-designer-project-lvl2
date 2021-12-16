@@ -308,9 +308,6 @@ header .search-form input {
   line-height: 1.5;
 }
 @media (max-width: 414px) {
-  .page-pricing .pricing-cards {
-    flex-direction: column;
-  }
   .page-pricing .pricing-item {
     margin-right: 0;
     margin-bottom: 50px;
@@ -324,9 +321,6 @@ header .search-form input {
   text-align: center;
 }
 
-.news-items {
-  margin-top: 50px;
-}
 .news-items .news-item {
   display: grid;
   grid-gap: 0 50px;
@@ -443,9 +437,6 @@ header .search-form input {
 }
 
 @media (max-width: 414px) {
-  .page-app .app-description {
-    flex-direction: column-reverse;
-  }
   .page-app .app-description-text {
     width: 100%;
   }
@@ -523,9 +514,6 @@ footer .footer-second-part a {
   background-image: url(../images/Morten\ Harket.png);
   background-position: center;
   background-size: cover;
-}
-.artist-page-description h1 {
-  margin-top: 50px;
 }
 .artist-page-description p {
   color: #fff;
@@ -669,8 +657,16 @@ footer .footer-second-part a {
   display: flex;
 }
 
-.df-column {
-  flex-direction: column;
+@media (max-width: 414px) {
+  .mob-df-column {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 414px) {
+  .mob-df-column-reverse {
+    flex-direction: column-reverse;
+  }
 }
 
 .jc-space-between {

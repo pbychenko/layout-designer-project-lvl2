@@ -72,8 +72,16 @@
   display: flex;
 }
 
-.df-column {
-  flex-direction: column;
+.mob-df-column {
+  @media (max-width: $max-mob-width) {
+    flex-direction: column;
+  }  
+}
+
+.mob-df-column-reverse {
+  @media (max-width: $max-mob-width) {
+    flex-direction: column-reverse;
+  }  
 }
 
 .jc-space-between {

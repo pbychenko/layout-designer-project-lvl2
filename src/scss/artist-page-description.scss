@@ -1,10 +1,6 @@
 .artist-page-description {
   @include page-desctiption-back(Morten\ Harket);
 
-  h1 {
-    margin-top: 50px;
-  }
-
   p {
     color: $white;
   }

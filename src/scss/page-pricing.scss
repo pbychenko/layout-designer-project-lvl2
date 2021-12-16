@@ -30,10 +30,6 @@
   }
 
   @media (max-width: $max-mob-width) {
-    .pricing-cards {
-      flex-direction: column;
-    }
-
     .pricing-item {
       margin-right: 0;
       margin-bottom: 50px;

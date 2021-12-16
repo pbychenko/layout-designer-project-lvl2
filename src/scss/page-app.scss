@@ -13,10 +13,6 @@
 
 @media (max-width: $max-mob-width) {
   .page-app {
-    .app-description {
-      flex-direction: column-reverse;
-    }
-
     .app-description-text {
       width: 100%;
     }
