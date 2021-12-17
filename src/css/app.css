@@ -233,9 +233,6 @@ header .horizontal-menu .selected {
   background-position: center;
   background-size: cover;
 }
-.page-pricing .pricing-item.free h3 {
-  margin-bottom: 200px;
-}
 .page-pricing .pricing-item.free .pricing-value {
   margin-bottom: 40px;
   font-size: 64px;
@@ -260,9 +257,6 @@ header .horizontal-menu .selected {
   background-position: center;
   background-size: cover;
 }
-.page-pricing .pricing-item.standart h3 {
-  margin-bottom: 200px;
-}
 .page-pricing .pricing-item.standart .pricing-value {
   margin-bottom: 40px;
   font-size: 64px;
@@ -286,9 +280,6 @@ header .horizontal-menu .selected {
   background-image: url(../images/subscribe_3.png);
   background-position: center;
   background-size: cover;
-}
-.page-pricing .pricing-item.premium h3 {
-  margin-bottom: 200px;
 }
 .page-pricing .pricing-item.premium .pricing-value {
   margin-bottom: 40px;
@@ -607,6 +598,10 @@ footer .footer-second-part a {
 
 .mb-100 {
   margin-bottom: 100px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
 }
 
 .mt-50 {
