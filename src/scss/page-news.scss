@@ -9,7 +9,7 @@
 
   .news-item.text-first {
     @include news-item(true);
-  }
+  }  
 
   .news-item:nth-child(1) {
     margin-bottom: 65px;
