@@ -332,7 +332,6 @@ header .horizontal-menu .selected {
 .news-items .news-item.text-first > img {
   margin-right: 0;
   margin-left: 50px;
-  border: solid 1px red;
 }
 .news-items .news-item.text-first .news-body h3 {
   margin-top: 0;
