@@ -94,18 +94,19 @@
       margin-bottom: 50px;
     }
 
-    .news-author img,
-    span {
-      margin-right: 16px;
-    }
+    .news-author {
+      img, span {
+        margin-right: 16px;
+      }
 
-    .news-author span {
-      font-size: 12.8px;
-      text-transform: uppercase;
-    }
+      span {
+        font-size: 12.8px;
+        text-transform: uppercase;
+      }
 
-    .author-name {
-      color: $orange;
+      .author-name {
+        color: $orange;
+      }
     }
   }
 
