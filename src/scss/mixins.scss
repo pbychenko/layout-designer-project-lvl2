@@ -66,11 +66,14 @@
   @if ($text-first == true) {
     flex-direction: row-reverse;
     > img {
+      margin-right: 0;
       margin-left: 50px;
+      border: solid 1px red;
     }
   } @else {
     > img {
       margin-right: 50px;
+      border: solid 1px green;
     }
   }
 
