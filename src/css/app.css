@@ -128,12 +128,7 @@ h3 {
 }
 
 a {
-  color: #fff;
   text-decoration: none;
-}
-
-section {
-  position: relative;
 }
 
 .container {
@@ -195,7 +190,6 @@ header .horizontal-menu .selected {
 }
 
 .page-description {
-  position: relative;
   color: #fff;
   text-align: center;
   background-image: url(../images/banner.png);
